@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>排序算法可视化</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        label {
+            font-size: 0.9em;
+            color: #666;
+            font-weight: 600;
+        }
+
+        select, input, button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        select:hover, input:hover {
+            border-color: #667eea;
+        }
+
+        select:focus, input:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .visualization {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 40px 20px;
+            min-height: 400px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 2px;
+            margin-bottom: 20px;
+        }
+
+        .bar {
+            background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+            border-radius: 4px 4px 0 0;
+            transition: all 0.3s;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .bar.comparing {
+            background: linear-gradient(180deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .bar.sorted {
+            background: linear-gradient(180deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .bar.swapping {
+            background: linear-gradient(180deg, #43e97b 0%, #38f9d7 100%);
+        }
+
+        .bar-value {
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 5px;
+        }
+
+        .info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .info-card h3 {
+            color: #667eea;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        .info-card p {
+            color: #333;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+
+        .status {
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .status.sorting {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status.completed {
+            background: #d4edda;
+            color: #155724;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 排序算法可视化</h1>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label>选择算法</label>
+                <select id="algorithm">
+                    <option value="bubble">冒泡排序</option>
+                    <option value="quick">快速排序</option>
+                    <option value="merge">归并排序</option>
+                </select>
+            </div>
+            
+            <div class="control-group">
+                <label>数组大小</label>
+                <input type="number" id="arraySize" min="5" max="50" value="20">
+            </div>
+            
+            <div class="control-group">
+                <label>动画速度 (ms)</label>
+                <input type="number" id="speed" min="10" max="1000" value="100" step="10">
+            </div>
+            
+            <button id="generateBtn">生成新数组</button>
+            <button id="sortBtn">开始排序</button>
+            <button id="stopBtn" disabled>停止</button>
+        </div>
+
+        <div id="status" class="status" style="display: none;"></div>
+        
+        <div class="visualization" id="visualization"></div>
+        
+        <div class="info">
+            <div class="info-card">
+                <h3>比较次数</h3>
+                <p id="comparisons">0</p>
+            </div>
+            <div class="info-card">
+                <h3>交换次数</h3>
+                <p id="swaps">0</p>
+            </div>
+            <div class="info-card">
+                <h3>数组访问次数</h3>
+                <p id="accesses">0</p>
+            </div>
+            <div class="info-card">
+                <h3>耗时</h3>
+                <p id="time">0 ms</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class SortingVisualizer {
+            constructor() {
+                this.array = [];
+                this.comparisons = 0;
+                this.swaps = 0;
+                this.accesses = 0;
+                this.startTime = 0;
+                this.isSorting = false;
+                this.shouldStop = false;
+                
+                this.initElements();
+                this.initEventListeners();
+                this.generateArray();
+            }
+
+            initElements() {
+                this.visualization = document.getElementById('visualization');
+                this.algorithmSelect = document.getElementById('algorithm');
+                this.arraySizeInput = document.getElementById('arraySize');
+                this.speedInput = document.getElementById('speed');
+                this.generateBtn = document.getElementById('generateBtn');
+                this.sortBtn = document.getElementById('sortBtn');
+                this.stopBtn = document.getElementById('stopBtn');
+                this.statusDiv = document.getElementById('status');
+                this.comparisonsSpan = document.getElementById('comparisons');
+                this.swapsSpan = document.getElementById('swaps');
+                this.accessesSpan = document.getElementById('accesses');
+                this.timeSpan = document.getElementById('time');
+            }
+
+            initEventListeners() {
+                this.generateBtn.addEventListener('click', () => this.generateArray());
+                this.sortBtn.addEventListener('click', () => this.startSort());
+                this.stopBtn.addEventListener('click', () => this.stopSort());
+            }
+
+            generateArray() {
+                if (this.isSorting) return;
+                
+                const size = parseInt(this.arraySizeInput.value);
+                this.array = Array.from({length: size}, () => Math.floor(Math.random() * 100) + 10);
+                this.resetStats();
+                this.renderBars();
+            }
+
+            resetStats() {
+                this.comparisons = 0;
+                this.swaps = 0;
+                this.accesses = 0;
+                this.updateStats();
+                this.statusDiv.style.display = 'none';
+            }
+
+            updateStats() {
+                this.comparisonsSpan.textContent = this.comparisons;
+                this.swapsSpan.textContent = this.swaps;
+                this.accessesSpan.textContent = this.accesses;
+                
+                if (this.startTime) {
+                    const elapsed = Date.now() - this.startTime;
+                    this.timeSpan.textContent = elapsed + ' ms';
+                }
+            }
+
+            renderBars(highlightIndices = [], colors = []) {
+                this.visualization.innerHTML = '';
+                const maxValue = Math.max(...this.array);
+                const barWidth = Math.max(20, Math.min(60, (this.visualization.offsetWidth - this.array.length * 2) / this.array.length));
+                
+                this.array.forEach((value, index) => {
+                    const bar = document.createElement('div');
+                    bar.className = 'bar';
+                    bar.style.height = `${(value / maxValue) * 300}px`;
+                    bar.style.width = `${barWidth}px`;
+                    
+                    if (highlightIndices.includes(index)) {
+                        bar.classList.add(colors[highlightIndices.indexOf(index)] || 'comparing');
+                    }
+                    
+                    const valueSpan = document.createElement('span');
+                    valueSpan.className = 'bar-value';
+                    valueSpan.textContent = value;
+                    bar.appendChild(valueSpan);
+                    
+                    this.visualization.appendChild(bar);
+                });
+            }
+
+            async sleep() {
+                const speed = parseInt(this.speedInput.value);
+                await new Promise(resolve => setTimeout(resolve, speed));
+            }
+
+            async startSort() {
+                if (this.isSorting) return;
+                
+                this.isSorting = true;
+                this.shouldStop = false;
+                this.startTime = Date.now();
+                this.sortBtn.disabled = true;
+                this.stopBtn.disabled = false;
+                this.generateBtn.disabled = true;
+                
+                this.showStatus('正在排序...', 'sorting');
+                
+                const algorithm = this.algorithmSelect.value;
+                
+                try {
+                    switch(algorithm) {
+                        case 'bubble':
+                            await this.bubbleSort();
+                            break;
+                        case 'quick':
+                            await this.quickSort(0, this.array.length - 1);
+                            break;
+                        case 'merge':
+                            await this.mergeSort(0, this.array.length - 1);
+                            break;
+                    }
+                    
+                    if (!this.shouldStop) {
+                        this.showStatus('排序完成！', 'completed');
+                        await this.highlightSorted();
+                    } else {
+                        this.showStatus('排序已停止', 'sorting');
+                    }
+                } catch (e) {
+                    console.error(e);
+                }
+                
+                this.isSorting = false;
+                this.sortBtn.disabled = false;
+                this.stopBtn.disabled = true;
+                this.generateBtn.disabled = false;
+            }
+
+            stopSort() {
+                this.shouldStop = true;
+            }
+
+            showStatus(message, className) {
+                this.statusDiv.textContent = message;
+                this.statusDiv.className = 'status ' + className;
+                this.statusDiv.style.display = 'block';
+            }
+
+            async highlightSorted() {
+                for (let i = 0; i < this.array.length; i++) {
+                    if (this.shouldStop) break;
+                    this.renderBars([i], ['sorted']);
+                    await this.sleep();
+                }
+            }
+
+            async bubbleSort() {
+                const n = this.array.length;
+                
+                for (let i = 0; i < n && !this.shouldStop; i++) {
+                    let swapped = false;
+                    
+                    for (let j = 0; j < n - i - 1 && !this.shouldStop; j++) {
+                        this.comparisons++;
+                        this.accesses += 2;
+                        this.updateStats();
+                        
+                        this.renderBars([j, j + 1], ['comparing', 'comparing']);
+                        await this.sleep();
+                        
+                        if (this.array[j] > this.array[j + 1]) {
+                            [this.array[j], this.array[j + 1]] = [this.array[j + 1], this.array[j]];
+                            this.swaps++;
+                            this.accesses += 4;
+                            swapped = true;
+                            
+                            this.renderBars([j, j + 1], ['swapping', 'swapping']);
+                            await this.sleep();
+                        }
+                    }
+                    
+                    if (!swapped) break;
+                }
+                
+                this.renderBars();
+            }
+
+            async quickSort(low, high) {
+                if (low < high && !this.shouldStop) {
+                    const pi = await this.partition(low, high);
+                    await this.quickSort(low, pi - 1);
+                    await this.quickSort(pi + 1, high);
+                }
+            }
+
+            async partition(low, high) {
+                const pivot = this.array[high];
+                this.accesses++;
+                let i = low - 1;
+                
+                for (let j = low; j < high && !this.shouldStop; j++) {
+                    this.comparisons++;
+                    this.accesses++;
+                    this.updateStats();
+                    
+                    this.renderBars([j, high], ['comparing', 'comparing']);
+                    await this.sleep();
+                    
+                    if (this.array[j] < pivot) {
+                        i++;
+                        [this.array[i], this.array[j]] = [this.array[j], this.array[i]];
+                        this.swaps++;
+                        this.accesses += 4;
+                        
+                        this.renderBars([i, j], ['swapping', 'swapping']);
+                        await this.sleep();
+                    }
+                }
+                
+                [this.array[i + 1], this.array[high]] = [this.array[high], this.array[i + 1]];
+                this.swaps++;
+                this.accesses += 4;
+                this.renderBars([i + 1, high], ['swapping', 'swapping']);
+                await this.sleep();
+                
+                return i + 1;
+            }
+
+            async mergeSort(left, right) {
+                if (left < right && !this.shouldStop) {
+                    const mid = Math.floor((left + right) / 2);
+                    await this.mergeSort(left, mid);
+                    await this.mergeSort(mid + 1, right);
+                    await this.merge(left, mid, right);
+                }
+            }
+
+            async merge(left, mid, right) {
+                const leftArr = this.array.slice(left, mid + 1);
+                const rightArr = this.array.slice(mid + 1, right + 1);
+                this.accesses += (right - left + 1);
+                
+                let i = 0, j = 0, k = left;
+                
+                while (i < leftArr.length && j < rightArr.length && !this.shouldStop) {
+                    this.comparisons++;
+                    this.updateStats();
+                    
+                    this.renderBars([left + i, mid + 1 + j], ['comparing', 'comparing']);
+                    await this.sleep();
+                    
+                    if (leftArr[i] <= rightArr[j]) {
+                        this.array[k] = leftArr[i];
+                        i++;
+                    } else {
+                        this.array[k] = rightArr[j];
+                        j++;
+                    }
+                    this.accesses++;
+                    k++;
+                    
+                    this.renderBars([k - 1], ['swapping']);
+                    await this.sleep();
+                }
+                
+                while (i < leftArr.length && !this.shouldStop) {
+                    this.array[k] = leftArr[i];
+                    this.accesses++;
+                    i++;
+                    k++;
+                    this.renderBars([k - 1], ['swapping']);
+                    await this.sleep();
+                }
+                
+                while (j < rightArr.length && !this.shouldStop) {
+                    this.array[k] = rightArr[j];
+                    this.accesses++;
+                    j++;
+                    k++;
+                    this.renderBars([k - 1], ['swapping']);
+                    await this.sleep();
+                }
+                
+                this.renderBars();
+            }
+        }
+
+        // 初始化可视化器
+        window.addEventListener('DOMContentLoaded', () => {
+            new SortingVisualizer();
+        });
+    </script>
+</body>
+</html>
