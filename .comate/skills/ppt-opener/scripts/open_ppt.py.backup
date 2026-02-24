@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+"""
+PPT Opener and Editor Utility Script for ppt-opener skill
+
+This script provides cross-platform PPT opening and editing functionality.
+It can be used to open existing PPT files, add new slides with text content,
+and save the modified presentation.
+"""
+
+import os
+import sys
+import platform
+import subprocess
+from pathlib import Path
+
+def is_valid_ppt(file_path):
+    """Check if the file exists and might be a PPT/PPTX file."""
+    path = Path(file_path)
+    if not path.exists():
+        return False, f"文件不存在: {file_path}"
+    
+    if not path.is_file():
+        return False, f"路径不是一个文件: {file_path}"
+    
+    # Check file extension
+    if not file_path.lower().endswith(('.ppt', '.pptx')):
+        return False, f"文件不是PPT/PPTX格式: {file_path}"
+    
+    return True, "文件有效"
+
+def open_ppt(file_path):
+    """
+    Open a PPT/PPTX file with the system's default PowerPoint viewer.
+    
+    Args:
+        file_path (str): Path to the PPT/PPTX file
+        
+    Returns:
+        tuple: (success: bool, message: str)
+    """
+    # Check file validity first
+    is_valid, message = is_valid_ppt(file_path)
+    if not is_valid:
+        return False, message
+    
+    # Get the operating system
+    system = platform.system().lower()
+    
+    try:
+        if system == 'darwin':  # macOS
+            subprocess.run(['open', file_path], check=True)
+            return True, f"PPT已在macOS上成功打开: {file_path}"
+            
+        elif system == 'windows':
+            # Use start command on Windows (handles spaces in paths)
+            subprocess.run(['start', '', file_path], shell=True, check=True)
+            return True, f"PPT已在Windows上成功打开: {file_path}"
+            
+        elif system == 'linux':
+            subprocess.run(['xdg-open', file_path], check=True)
+            return True, f"PPT已在Linux上成功打开: {file_path}"
+            
+        else:
+            return False, f"不支持的操作系统: {system}"
+            
+    except subprocess.CalledProcessError as e:
+        return False, f"打开PPT时出错: {e}"
+    except FileNotFoundError:
+        return False, f"系统命令未找到。请确保您的系统已安装PowerPoint或兼容的PPT查看器。"
+
+def add_slide_with_text(ppt_path, text_content, layout_index=1):
+    """
+    Add a new slide with text content to an existing PPT file.
+    
+    Args:
+        ppt_path (str): Path to the PPT/PPTX file
+        text_content (str): Text content to add to the new slide
+        layout_index (int): Layout index for the new slide (default: 1 for title and content)
+        
+    Returns:
+        tuple: (success: bool, message: str)
+    """
+    try:
+        # Try to import python-pptx
+        try:
+            from pptx import Presentation
+            from pptx.util import Inches, Pt
+        except ImportError:
+            return False, "未安装python-pptx库。请先运行: pip install python-pptx"
+        
+        # Check if file exists
+        if not os.path.exists(ppt_path):
+            return False, f"PPT文件不存在: {ppt_path}"
+        
+        # Load existing presentation
+        prs = Presentation(ppt_path)
+        
+        # Add new slide with specified layout
+        slide_layout = prs.slide_layouts[layout_index]
+        slide = prs.slides.add_slide(slide_layout)
+        
+        # Add text content to the slide
+        # For layout index 1, usually placeholder at index 1 is the content area
+        if len(slide.placeholders) > 1:
+            content_placeholder = slide.placeholders[1]
+            content_placeholder.text = text_content
+            
+            # Format the text (optional)
+            for paragraph in content_placeholder.text_frame.paragraphs:
+                for run in paragraph.runs:
+                    run.font.size = Pt(18)
+        
+        # Save the modified presentation
+        prs.save(ppt_path)
+        
+        return True, f"成功添加新幻灯片并保存: {ppt_path}"
+        
+    except Exception as e:
+        return False, f"处理PPT时出错: {e}"
+
+def create_new_ppt(file_path, title=None, content=None):
+    """
+    Create a new PPT file with optional title and content.
+    
+    Args:
+        file_path (str): Path where to save the new PPT file
+        title (str): Optional title for the first slide
+        content (str): Optional content for the first slide
+        
+    Returns:
+        tuple: (success: bool, message: str)
+    """
+    try:
+        # Try to import python-pptx
+        try:
+            from pptx import Presentation
+            from pptx.util import Pt
+        except ImportError:
+            return False, "未安装python-pptx库。请先运行: pip install python-pptx"
+        
+        # Create new presentation
+        prs = Presentation()
+        
+        # Add title slide
+        slide_layout = prs.slide_layouts[0]  # Title slide layout
+        slide = prs.slides.add_slide(slide_layout)
+        
+        # Add title if provided
+        if title:
+            title_shape = slide.shapes.title
+            title_shape.text = title
+        
+        # Add subtitle/content if provided and placeholder exists
+        if content and len(slide.placeholders) > 1:
+            subtitle_shape = slide.placeholders[1]
+            subtitle_shape.text = content
+        
+        # Save the new presentation
+        prs.save(file_path)
+        
+        return True, f"成功创建新的PPT文件: {file_path}"
+        
+    except Exception as e:
+        return False, f"创建PPT文件时出错: {e}"
+
+def main():
+    """Command-line interface for PPT opener/editor."""
+    if len(sys.argv) < 2:
+        print("用法: python open_ppt.py <command> [options]")
+        print("命令:")
+        print("  open <ppt-file-path>                    - 打开PPT文件")
+        print("  add-slide <ppt-file-path> <text>        - 添加新幻灯片")
+        print("  create <new-ppt-path> [title] [content] - 创建新PPT文件")
+        print("")
+        print("示例:")
+        print("  python open_ppt.py open /path/to/presentation.pptx")
+        print("  python open_ppt.py add-slide /path/to/presentation.pptx '新幻灯片内容'")
+        print("  python open_ppt.py create new_presentation.pptx '标题' '内容'")
+        sys.exit(1)
+    
+    command = sys.argv[1].lower()
+    
+    if command == 'open' and len(sys.argv) >= 3:
+        file_path = sys.argv[2]
+        success, message = open_ppt(file_path)
+        
+    elif command == 'add-slide' and len(sys.argv) >= 4:
+        file_path = sys.argv[2]
+        text_content = sys.argv[3]
+        success, message = add_slide_with_text(file_path, text_content)
+        
+    elif command == 'create' and len(sys.argv) >= 3:
+        file_path = sys.argv[2]
+        title = sys.argv[3] if len(sys.argv) > 3 else None
+        content = sys.argv[4] if len(sys.argv) > 4 else None
+        success, message = create_new_ppt(file_path, title, content)
+        
+    else:
+        print("错误: 无效的命令或参数")
+        main()  # Show usage again
+        sys.exit(1)
+    
+    if success:
+        print(f"✅ {message}")
+    else:
+        print(f"❌ {message}")
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()
+```

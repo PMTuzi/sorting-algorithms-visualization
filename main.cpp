@@ -25,8 +25,20 @@ void print_vector(const std::vector<T>& vec) {
 }
 
 /**
- * @brief 测试三种排序算法
+ * @brief 测试四种排序算法的正确性
+ *
+ * 使用多种测试用例（包括边界情况）验证冒泡排序、快速排序、归并排序和堆排序的正确性
+ * 测试用例包括：
+ * - 普通乱序数组
+ * - 小型数组
+ * - 单元素数组
+ * - 空数组
+ * - 全相同元素数组
+ * - 逆序数组
+ *
+ * 每种算法对每个测试用例进行排序并输出结果，便于直观比较不同算法的排序效果
  */
+
 void test_sorting_algorithms() {
     std::vector<std::vector<int>> test_cases = {
         {64, 34, 25, 12, 22, 11, 90},
@@ -56,6 +68,10 @@ void test_sorting_algorithms() {
 
         std::cout << "归并排序: ";
         print_vector(merge_sort(test_cases[i]));
+        std::cout << std::endl;
+
+        std::cout << "堆排序:   ";
+        print_vector(heap_sort(test_cases[i]));
         std::cout << std::endl;
     }
 }
@@ -91,6 +107,11 @@ void performance_comparison() {
               << std::setw(15) << "O(n)"
               << std::setw(10) << "稳定" << std::endl;
 
+    std::cout << std::left << std::setw(15) << "堆排序"
+              << std::setw(20) << "O(n log n)"
+              << std::setw(15) << "O(1)"
+              << std::setw(10) << "不稳定" << std::endl;
+
     std::cout << std::string(60, '-') << std::endl;
 }
 
@@ -98,22 +119,32 @@ void performance_comparison() {
  * @brief 字符串排序演示
  */
 void string_sorting_demo() {
+    // 打印分隔线和标题
     std::cout << "\n" << std::string(60, '=') << std::endl;
     std::cout << "字符串排序演示" << std::endl;
     std::cout << std::string(60, '=') << std::endl;
 
+    // 创建并初始化字符串数组
     std::vector<std::string> fruits = {"banana", "apple", "cherry", "date", "elderberry"};
 
+    // 显示原始数组
     std::cout << "\n原始数组: ";
     print_vector(fruits);
     std::cout << std::endl;
 
+    // 使用归并排序并显示结果
     std::cout << "归并排序结果: ";
     print_vector(merge_sort(fruits));
     std::cout << std::endl;
 
+    // 使用快速排序并显示结果
     std::cout << "快速排序结果: ";
     print_vector(quick_sort(fruits));
+    std::cout << std::endl;
+
+    // 使用堆排序并显示结果
+    std::cout << "堆排序结果:   ";
+    print_vector(heap_sort(fruits));
     std::cout << std::endl;
 }
 
@@ -140,3 +171,4 @@ int main() {
 
     return 0;
 }
+

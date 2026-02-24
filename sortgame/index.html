@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字排序挑战 - 手动拖拽排序游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 数字排序挑战</h1>
+            <p class="subtitle">拖拽数字使其按顺序排列</p>
+        </header>
+
+        <div class="game-controls">
+            <div class="difficulty-selector">
+                <label for="difficulty">选择难度：</label>
+                <select id="difficulty">
+                    <option value="easy">简单 (3×3)</option>
+                    <option value="medium" selected>中等 (4×4)</option>
+                    <option value="hard">困难 (5×5)</option>
+                </select>
+            </div>
+            <button id="startBtn" class="btn primary">开始游戏</button>
+            <button id="restartBtn" class="btn secondary" disabled>重新开始</button>
+        </div>
+
+        <div class="game-info">
+            <div class="info-card">
+                <span class="label">时间：</span>
+                <span id="timer">00:00</span>
+            </div>
+            
+            
+        </div>
+
+        <div class="game-board" id="gameBoard">
+            <!-- 游戏网格将通过JavaScript动态生成 -->
+        </div>
+
+        <div class="result-modal" id="resultModal" style="display: none;">
+            <div class="modal-content">
+                <h2>🎉 游戏完成！</h2>
+                <div class="result-stats">
+                    <p>用时：<span id="finalTime">00:00</span></p>
+                    <p>步数：<span id="finalMoves">0</span></p>
+                    <p>评级：<span id="rating">-</span></p>
+                </div>
+                <button id="playAgainBtn" class="btn primary">再玩一次</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

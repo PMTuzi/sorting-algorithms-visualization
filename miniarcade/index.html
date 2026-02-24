@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniArcade - 十款网页小游戏合集</title>
+    <meta name="description" content="玩转10款经典小游戏：数字排序、记忆匹配、井字棋、猜数字、扫雷、贪吃蛇、俄罗斯方块、打字测试、数学挑战、颜色配对">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 头部导航 -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1 class="app-title">🎮 MiniArcade</h1>
+                <p class="app-subtitle">十款精选网页小游戏合集</p>
+            </div>
+        </header>
+
+        <!-- 游戏分类导航 -->
+        <nav class="category-nav" id="categoryNav">
+            <button class="category-btn active" data-category="all">全部游戏</button>
+            <button class="category-btn" data-category="puzzle">益智类</button>
+            <button class="category-btn" data-category="strategy">策略类</button>
+            <button class="category-btn" data-category="action">动作类</button>
+            <button class="category-btn" data-category="educational">教育类</button>
+        </nav>
+
+        <!-- 游戏搜索 -->
+        <div class="search-section">
+            <div class="search-container">
+                <input type="text" id="gameSearch" placeholder="搜索游戏..." class="search-input">
+                <button class="search-btn">🔍</button>
+            </div>
+        </div>
+
+        <!-- 游戏网格 -->
+        <main class="games-grid" id="gamesGrid">
+            <!-- 游戏卡片将通过JavaScript动态生成 -->
+        </main>
+
+        <!-- 游戏详情模态框 -->
+        <div class="modal" id="gameModal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle">游戏标题</h2>
+                    <button class="modal-close" id="modalClose">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="game-preview" id="gamePreview">
+                        <!-- 游戏预览区域 -->
+                    </div>
+                    <div class="game-info">
+                        <div class="info-item">
+                            <span class="label">难度:</span>
+                            <span id="modalDifficulty" class="value"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">类别:</span>
+                            <span id="modalCategory" class="value"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">描述:</span>
+                            <p id="modalDescription" class="description"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" id="playGameBtn">开始游戏</button>
+                    <button class="btn btn-secondary" id="closeModalBtn">取消</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 游戏容器 -->
+        <div class="game-container" id="gameContainer" style="display: none;">
+            <div class="game-header">
+                <button class="back-btn" id="backToGames">← 返回游戏中心</button>
+                <h2 id="currentGameTitle">当前游戏</h2>
+                <div class="game-controls">
+                    <button class="btn btn-small" id="restartGame">重新开始</button>
+                    <button class="btn btn-small" id="gameSettings">设置</button>
+                </div>
+            </div>
+            <div class="game-area" id="gameArea">
+                <!-- 游戏内容将动态加载 -->
+            </div>
+        </div>
+
+        <!-- 底部信息 -->
+        <footer class="app-footer">
+            <p>&copy; 2025 MiniArcade. 十款精选小游戏合集</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript 模块 -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

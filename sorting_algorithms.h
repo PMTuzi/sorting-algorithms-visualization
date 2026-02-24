@@ -40,20 +40,38 @@ std::vector<T> quick_sort(const std::vector<T>& arr);
 /**
  * @brief 归并排序
  * 使用归并排序算法对数组进行排序
- * 
+ *
  * 归并排序采用分治策略，将数组递归地分成两半分别排序，然后合并两个有序子数组。
  * 该算法稳定且适用于各种数据类型，但需要额外的O(n)空间。
- * 
+ *
  * @tparam T 数据类型
  * @param arr 待排序的数组，可以是包含数字、字符串等可比较元素的向量
  * @return std::vector<T> 排序后的新数组，原数组不会被修改
- * 
+ *
  * 时间复杂度: O(n log n)
  * 空间复杂度: O(n)
  * 稳定性: 稳定
  */
 template<typename T>
 std::vector<T> merge_sort(const std::vector<T>& arr);
+
+/**
+ * @brief 堆排序
+ * 使用堆排序算法对数组进行排序
+ *
+ * 堆排序利用二叉堆的性质进行排序。首先将数组构建成最大堆，
+ * 然后反复取出堆顶元素（最大值）并调整堆，直到堆为空。
+ *
+ * @tparam T 数据类型
+ * @param arr 待排序的数组，可以是包含数字、字符串等可比较元素的向量
+ * @return std::vector<T> 排序后的新数组，原数组不会被修改
+ *
+ * 时间复杂度: O(n log n)
+ * 空间复杂度: O(1)
+ * 稳定性: 不稳定
+ */
+template<typename T>
+std::vector<T> heap_sort(const std::vector<T>& arr);
 
 // 辅助函数声明
 namespace detail {
@@ -92,9 +110,19 @@ namespace detail {
      */
     template<typename T>
     int partition(std::vector<T>& arr, int low, int high);
+
+    /**
+     * @brief 堆排序的堆化函数
+     * 将以 root 为根的子树调整为大顶堆
+     */
+    template<typename T>
+    void heapify(std::vector<T>& arr, int n, int root);
 }
 
 // 模板函数实现必须在头文件中
 #include "sorting_algorithms.tpp"
 
 #endif // SORTING_ALGORITHMS_H
+
+
+
