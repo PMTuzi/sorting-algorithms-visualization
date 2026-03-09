@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多语言排序算法展示器</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .selection-section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .section-title {
+            color: #495057;
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #dee2e6;
+        }
+        
+        .selection-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .selection-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .selection-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            text-align: center;
+        }
+        
+        .selection-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            border-color: #4facfe;
+        }
+        
+        .selection-card.active {
+            border-color: #4facfe;
+            background: #e8f4fe;
+        }
+        
+        .language-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            border-radius: 50%;
+            color: white;
+        }
+        
+        .cpp .language-icon { background: #00599c; }
+        .python .language-icon { background: #3776ab; }
+        .javascript .language-icon { background: #f7df1e; color: #333; }
+        
+        .algorithm-icon {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%);
+            color: white;
+        }
+        
+        .algorithm-info {
+            margin-top: 10px;
+            font-size: 0.85em;
+            color: #6c757d;
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        
+        .code-section {
+            background: #282c34;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 30px;
+            min-height: 400px;
+        }
+        
+        .code-header {
+            background: #21252b;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .language-tag {
+            background: #61afef;
+            color: #282c34;
+            padding: 5px 15px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .algorithm-tag {
+            background: #98c379;
+            color: #282c34;
+            padding: 5px 15px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .code-content {
+            padding: 20px;
+            overflow-x: auto;
+        }
+        
+        pre {
+            margin: 0;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #abb2bf;
+        }
+        
+        .generate-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .generate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .generate-btn:active {
+            transform: translateY(0);
+        }
+        
+        .stats {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border-left: 4px solid #4facfe;
+        }
+        
+        .stats h4 {
+            margin-bottom: 10px;
+            color: #495057;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+        
+        .stat-item {
+            background: white;
+            padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #4facfe;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>多语言排序算法展示器</h1>
+            <p>选择编程语言和排序算法，查看不同语言的实现代码</p>
+        </div>
+        
+        <div class="content">
+            <div class="selection-section">
+                <h2 class="section-title">第一步：选择编程语言</h2>
+                <div class="selection-grid">
+                    <div class="selection-card cpp" onclick="selectLanguage('cpp')">
+                        <div class="language-icon">C++</div>
+                        <h3>C++</h3>
+                        <p>高性能系统编程语言</p>
+                    </div>
+                    
+                    <div class="selection-card python" onclick="selectLanguage('python')">
+                        <div class="language-icon">Py</div>
+                        <h3>Python</h3>
+                        <p>简洁易读的脚本语言</p>
+                    </div>
+                    
+                    <div class="selection-card javascript" onclick="selectLanguage('javascript')">
+                        <div class="language-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>网页交互脚本语言</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="selection-section">
+                <h2 class="section-title">第二步：选择排序算法</h2>
+                <div class="selection-grid">
+                    <div class="selection-card" onclick="selectAlgorithm('bubble')">
+                        <div class="algorithm-icon">B</div>
+                        <h3>冒泡排序</h3>
+                        <p>简单直观的排序算法</p>
+                        <div class="algorithm-info">
+                            <div>时间复杂度: O(n²)</div>
+                            <div>空间复杂度: O(1)</div>
+                            <div>稳定性: 稳定</div>
+                        </div>
+                    </div>
+                    
+                    <div class="selection-card" onclick="selectAlgorithm('quick')">
+                        <div class="algorithm-icon">Q</div>
+                        <h3>快速排序</h3>
+                        <p>高效的基于比较的算法</p>
+                        <div class="algorithm-info">
+                            <div>时间复杂度: O(n log n)</div>
+                            <div>空间复杂度: O(log n)</div>
+                            <div>稳定性: 不稳定</div>
+                        </div>
+                    </div>
+                    
+                    <div class="selection-card" onclick="selectAlgorithm('merge')">
+                        <div class="algorithm-icon">M</div>
+                        <h3>归并排序</h3>
+                        <p>稳定的分治算法</p>
+                        <div class="algorithm-info">
+                            <div>时间复杂度: O(n log n)</div>
+                            <div>空间复杂度: O(n)</div>
+                            <div>稳定性: 稳定</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="generate-btn" onclick="generateCode()">
+                生成代码
+            </button>
+            
+            <div class="stats">
+                <h4>算法特性对比</h4>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">冒泡排序</div>
+                        <div class="stat-label">最佳教学排序算法</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">快速排序</div>
+                        <div class="stat-label">实际应用最广泛</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">归并排序</div>
+                        <div class="stat-label">唯一稳定O(n log n)</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="code-section">
+                <div class="code-header">
+                    <span class="language-tag" id="current-language">C++</span>
+                    <span class="algorithm-tag" id="current-algorithm">冒泡排序</span>
+                </div>
+                <div class="code-content">
+                    <pre id="code-display">// 请先选择语言和算法，然后点击"生成代码"按钮</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedLanguage = 'cpp';
+        let selectedAlgorithm = 'bubble';
+        
+        // C++ 代码定义
+        const cppCode = {
+            bubble: `template<typename T>
+std::vector<T> bubble_sort(const std::vector<T>& arr) {
+    std::vector<T> result = arr;  // 创建副本以不修改原数组
+    size_t n = result.size();
+    
+    for (size_t i = 0; i < n; ++i) {
+        bool swapped = false;
+        for (size_t j = 0; j < n - i - 1; ++j) {
+            if (result[j] > result[j + 1]) {
+                std::swap(result[j], result[j + 1]);
+                swapped = true;
+            }
+        }
+        if (!swapped) break;
+    }
+    return result;
+}`,
+
+            quick: `template<typename T>
+std::vector<T> quick_sort(const std::vector<T>& arr) {
+    if (arr.size() <= 1) return arr;
+    
+    std::vector<T> result = arr;
+    quick_sort_impl(result, 0, result.size() - 1);
+    return result;
+}
+
+void quick_sort_impl(std::vector<T>& arr, int low, int high) {
+    if (low >= high) return;
+    
+    int pivot_index = partition(arr, low, high);
+    quick_sort_impl(arr, low, pivot_index - 1);
+    quick_sort_impl(arr, pivot_index + 1, high);
+}
+
+int partition(std::vector<T>& arr, int low, int high) {
+    T pivot = arr[high];
+    int i = low - 1;
+    
+    for (int j = low; j < high; ++j) {
+        if (arr[j] <= pivot) {
+            ++i;
+            std::swap(arr[i], arr[j]);
+        }
+    }
+    std::swap(arr[i + 1], arr[high]);
+    return i + 1;
+}`,
+
+            merge: `template<typename T>
+std::vector<T> merge_sort(const std::vector<T>& arr) {
+    if (arr.size() <= 1) return arr;
+    
+    size_t mid = arr.size() / 2;
+    std::vector<T> left(arr.begin(), arr.begin() + mid);
+    std::vector<T> right(arr.begin() + mid, arr.end());
+    
+    left = merge_sort(left);
+    right = merge_sort(right);
+    
+    return merge(left, right);
+}
+
+std::vector<T> merge(const std::vector<T>& left, const std::vector<T>& right) {
+    std::vector<T> result;
+    size_t i = 0, j = 0;
+    
+    while (i < left.size() && j < right.size()) {
+        if (left[i] <= right[j]) {
+            result.push_back(left[i]);
+            ++i;
+        } else {
+            result.push_back(right[j]);
+            ++j;
+        }
+    }
+    
+    while (i < left.size()) result.push_back(left[i++]);
+    while (j < right.size()) result.push_back(right[j++]);
+    
+    return result;
+}`
+        };
+        
+        // Python 代码定义
+        const pythonCode = {
+            bubble: `def bubble_sort(arr):
+    """冒泡排序算法"""
+    arr = arr[:]  # 创建副本以不修改原数组
+    n = len(arr)
+    
+    for i in range(n):
+        swapped = False
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                swapped = True
+        if not swapped:
+            break
+    
+    return arr`,
+
+            quick: `def quick_sort(arr):
+    """快速排序算法"""
+    if len(arr) <= 1:
+        return arr
+    
+    pivot = arr[-1]
+    left = [x for x in arr[:-1] if x <= pivot]
+    right = [x for x in arr[:-1] if x > pivot]
+    
+    return quick_sort(left) + [pivot] + quick_sort(right)`,
+            
+            merge: `def merge_sort(arr):
+    """归并排序算法"""
+    if len(arr) <= 1:
+        return arr
+    
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    
+    return merge(left, right)
+
+def merge(left, right):
+    """合并两个有序数组"""
+    result = []
+    i = j = 0
+    
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    
+    result.extend(left[i:])
+    result.extend(right[j:])
+    return result`
+        };
+        
+        // JavaScript 代码定义
+        const javascriptCode = {
+            bubble: `function bubbleSort(arr) {
+    // 创建副本以不修改原数组
+    const result = [...arr];
+    const n = result.length;
+    
+    for (let i = 0; i < n; i++) {
+        let swapped = false;
+        for (let j = 0; j < n - i - 1; j++) {
+            if (result[j] > result[j + 1]) {
+                // 交换元素
+                [result[j], result[j + 1]] = [result[j + 1], result[j]];
+                swapped = true;
+            }
+        }
+        if (!swapped) break;
+    }
+    
+    return result;
+}`,
+
+            quick: `function quickSort(arr) {
+    if (arr.length <= 1) return arr;
+    
+    const pivot = arr[arr.length - 1];
+    const left = [];
+    const right = [];
+    
+    for (let i = 0; i < arr.length - 1; i++) {
+        if (arr[i] <= pivot) {
+            left.push(arr[i]);
+        } else {
+            right.push(arr[i]);
+        }
+    }
+    
+    return [...quickSort(left), pivot, ...quickSort(right)];
+}`,
+            
+            merge: `function mergeSort(arr) {
+    if (arr.length <= 1) return arr;
+    
+    const mid = Math.floor(arr.length / 2);
+    const left = mergeSort(arr.slice(0, mid));
+    const right = mergeSort(arr.slice(mid));
+    
+    return merge(left, right);
+}
+
+function merge(left, right) {
+    const result = [];
+    let i = 0, j = 0;
+    
+    while (i < left.length && j < right.length) {
+        if (left[i] <= right[j]) {
+            result.push(left[i]);
+            i++;
+        } else {
+            result.push(right[j]);
+            j++;
+        }
+    }
+    
+    return result.concat(left.slice(i)).concat(right.slice(j));
+}`
+        };
+        
+        // 选择语言函数
+        function selectLanguage(language) {
+            selectedLanguage = language;
+            
+            // 移除所有卡片的active类
+            document.querySelectorAll('.selection-card.cpp, .selection-card.python, .selection-card.javascript')
+                .forEach(card => card.classList.remove('active'));
+            
+            // 添加active类到选中的卡片
+            document.querySelector(`.selection-card.${language}`).classList.add('active');
+        }
+        
+        // 选择算法函数
+        function selectAlgorithm(algorithm) {
+            selectedAlgorithm = algorithm;
+            
+            // 移除所有卡片的active类
+            document.querySelectorAll('.selection-grid:nth-child(2) .selection-card')
+                .forEach(card => card.classList.remove('active'));
+            
+            // 添加active类到选中的卡片
+            const cards = document.querySelectorAll('.selection-grid:nth-child(2) .selection-card');
+            let index = 0;
+            switch(algorithm) {
+                case 'bubble': index = 0; break;
+                case 'quick': index = 1; break;
+                case 'merge': index = 2; break;
+            }
+            cards[index].classList.add('active');
+        }
+        
+        // 生成代码函数
+        function generateCode() {
+            let code = '';
+            let languageName = '';
+            
+            // 根据选择的语言和算法获取代码
+            switch(selectedLanguage) {
+                case 'cpp':
+                    code = cppCode[selectedAlgorithm];
+                    languageName = 'C++';
+                    break;
+                case 'python':
+                    code = pythonCode[selectedAlgorithm];
+                    languageName = 'Python';
+                    break;
+                case 'javascript':
+                    code = javascriptCode[selectedAlgorithm];
+                    languageName = 'JavaScript';
+                    break;
+            }
+            
+            // 获取算法名称
+            let algorithmName = '';
+            switch(selectedAlgorithm) {
+                case 'bubble': algorithmName = '冒泡排序'; break;
+                case 'quick': algorithmName = '快速排序'; break;
+                case 'merge': algorithmName = '归并排序'; break;
+            }
+            
+            // 更新显示
+            document.getElementById('current-language').textContent = languageName;
+            document.getElementById('current-algorithm').textContent = algorithmName;
+            document.getElementById('code-display').textContent = code;
+            
+            // 高亮显示代码（使用简单的语法高亮）
+            const codeElement = document.getElementById('code-display');
+            let highlightedCode = code;
+            
+            // C++ 关键字
+            if (selectedLanguage === 'cpp') {
+                highlightedCode = highlightedCode
+                    .replace(/\b(template|typename|class|void|int|size_t|bool)\b/g, '<span class="keyword">$1</span>')
+                    .replace(/\b(return|if|else|for|while)\b/g, '<span class="keyword">$1</span>')
+                    .replace(/\b(std::vector|std::swap)\b/g, '<span class="class-name">$1</span>');
+            }
+            // Python 关键字
+            else if (selectedLanguage === 'python') {
+                highlightedCode = highlightedCode
+                    .replace(/\b(def|return|if|elif|else|for|in|range)\b/g, '<span class="keyword">$1</span>')
+                    .replace(/\b(True|False|None)\b/g, '<span class="keyword">$1</span>');
+            }
+            // JavaScript 关键字
+            else if (selectedLanguage === 'javascript') {
+                highlightedCode = highlightedCode
+                    .replace(/\b(function|return|if|else|for|let|const)\b/g, '<span class="keyword">$1</span>')
+                    .replace(/\b(Math\.floor|Math\.ceil)\b/g, '<span class="function">$1</span>');
+            }
+            
+            // 字符串和注释高亮（所有语言）
+            highlightedCode = highlightedCode
+                .replace(/(".*?")/g, '<span class="string">$1</span>')
+                .replace(/(#.*?$)/gm, '<span class="comment">$1</span>')
+                .replace(/(\/\/.*?$)/gm, '<span class="comment">$1</span>')
+                .replace(/(\/\*[\s\S]*?\*\/)/g, '<span class="comment">$1</span>');
+            
+            codeElement.innerHTML = highlightedCode;
+            
+            // 添加一些内联样式
+            const style = document.createElement('style');
+            style.textContent = `
+                .keyword { color: #c678dd; font-weight: bold; }
+                .class-name { color: #e5c07b; font-weight: bold; }
+                .function { color: #61afef; }
+                .string { color: #98c379; }
+                .comment { color: #5c6370; font-style: italic; }
+                .operator { color: #56b6c2; }
+                .number { color: #d19a66; }
+            `;
+            codeElement.parentNode.appendChild(style);
+        }
+        
+        // 初始选择
+        document.addEventListener('DOMContentLoaded', () => {
+            selectLanguage('cpp');
+            selectAlgorithm('bubble');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多语言排序算法演示平台</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #4b6cb7, #182848);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.8em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+        }
+
+        .languages-grid {
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .language-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 3px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .language-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+            border-color: #4b6cb7;
+            background: linear-gradient(145deg, #ffffff, #f0f2f5);
+        }
+
+        .language-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .language-name {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .language-description {
+            color: #666;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .features-list {
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        .features-list li {
+            margin: 8px 0;
+            color: #555;
+            display: flex;
+            align-items: center;
+        }
+
+        .features-list li:before {
+            content: "✓";
+            color: #4b6cb7;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(90deg, #4b6cb7, #182848);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #eee;
+        }
+
+        .algorithm-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .algorithm-icon {
+            background: #4b6cb7;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .bubble-sort { background: #ff6b6b; }
+        .quick-sort { background: #4ecdc4; }
+        .merge-sort { background: #45b7d1; }
+
+        @media (max-width: 768px) {
+            .languages-grid {
+                grid-template-columns: 1fr;
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+        }
+
+        /* 动画效果 */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .language-card:hover .language-icon {
+            animation: float 2s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 排序算法学习平台</h1>
+            <p>三种编程语言 × 三种经典算法 = 完整的学习体验</p>
+        </div>
+
+        <div class="languages-grid">
+            <!-- JavaScript 版本 -->
+            <div class="language-card" onclick="window.location.href='sorting_visualizer.html'">
+                <span class="language-icon">🔷</span>
+                <div class="language-name">JavaScript</div>
+                <div class="language-description">
+                    交互式可视化演示，实时动画展示排序过程
+                </div>
+                
+                <div class="algorithm-icons">
+                    <div class="algorithm-icon bubble-sort" title="冒泡排序">B</div>
+                    <div class="algorithm-icon quick-sort" title="快速排序">Q</div>
+                    <div class="algorithm-icon merge-sort" title="归并排序">M</div>
+                </div>
+                
+                <ul class="features-list">
+                    <li>实时动画演示</li>
+                    <li>交互式控制面板</li>
+                    <li>详细步骤追踪</li>
+                    <li>性能统计分析</li>
+                </ul>
+                
+                <button class="btn">立即体验 🎮</button>
+            </div>
+
+            <!-- Python 版本 -->
+            <div class="language-card" onclick="showPythonInstructions()">
+                <span class="language-icon">🐍</span>
+                <div class="language-name">Python</div>
+                <div class="language-description">
+                    清晰易懂的代码实现，详细的执行过程输出
+                </div>
+                
+                <div class="algorithm-icons">
+                    <div class="algorithm-icon bubble-sort" title="冒泡排序">B</div>
+                    <div class="algorithm-icon quick-sort" title="快速排序">Q</div>
+                    <div class="algorithm-icon merge-sort" title="归并排序">M</div>
+                </div>
+                
+                <ul class="features-list">
+                    <li>简洁优雅的语法</li>
+                    <li>详细的执行日志</li>
+                    <li>交互式命令行界面</li>
+                    <li>性能对比分析</li>
+                </ul>
+                
+                <button class="btn">运行 Python 🐍</button>
+            </div>
+
+            <!-- Java 版本 -->
+            <div class="language-card" onclick="showJavaInstructions()">
+                <span class="language-icon">☕</span>
+                <div class="language-name">Java</div>
+                <div class="language-description">
+                    面向对象的设计，强类型安全的实现方式
+                </div>
+                
+                <div class="algorithm-icons">
+                    <div class="algorithm-icon bubble-sort" title="冒泡排序">B</div>
+                    <div class="algorithm-icon quick-sort" title="快速排序">Q</div>
+                    <div class="algorithm-icon merge-sort" title="归并排序">M</div>
+                </div>
+                
+                <ul class="features-list">
+                    <li>面向对象设计</li>
+                    <li>详细的执行跟踪</li>
+                    <li>交互式控制台</li>
+                    <li>性能统计报告</li>
+                </ul>
+                
+                <button class="btn">编译运行 ☕</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>💡 提示：每种语言都实现了相同的三种经典排序算法</p>
+            <p>🎯 适合学习算法原理、比较不同语言特性、理解算法复杂度</p>
+        </div>
+    </div>
+
+    <script>
+        function showPythonInstructions() {
+            const instructions = `
+🔧 Python 版本使用说明:
+
+1. 在终端中导航到项目目录:
+   cd /Users/tanzeng/Documents/培训代码演示/SortTest
+
+2. 运行 Python 脚本:
+   python3 python_sorting_algorithms.py
+
+3. 按照提示进行交互式操作:
+   - 选择生成随机数组或手动输入
+   - 选择要演示的排序算法
+   - 查看详细的执行过程和统计信息
+
+📝 文件说明:
+- python_sorting_algorithms.py: 完整的排序算法实现
+- 包含详细的注释和执行过程输出
+- 支持交互式演示模式
+            `;
+            
+            alert(instructions);
+        }
+
+        function showJavaInstructions() {
+            const instructions = `
+☕ Java 版本使用说明:
+
+1. 在终端中导航到项目目录:
+   cd /Users/tanzeng/Documents/培训代码演示/SortTest
+
+2. 编译 Java 文件:
+   javac JavaSortingAlgorithms.java
+
+3. 运行编译后的程序:
+   java JavaSortingAlgorithms
+
+4. 按照提示进行交互式操作:
+   - 选择生成随机数组或手动输入
+   - 选择要演示的排序算法
+   - 查看详细的执行过程和统计信息
+
+📝 文件说明:
+- JavaSortingAlgorithms.java: 完整的排序算法实现
+- 面向对象设计，包含统计信息类
+- 支持交互式演示模式
+            `;
+            
+            alert(instructions);
+        }
+
+        // 添加键盘快捷键
+        document.addEventListener('keydown', function(e) {
+            if (e.key === '1') {
+                window.location.href = 'sorting_visualizer.html';
+            } else if (e.key === '2') {
+                showPythonInstructions();
+            } else if (e.key === '3') {
+                showJavaInstructions();
+            }
+        });
+
+        // 添加加载动画
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.language-card');
+            cards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    card.style.transition = 'all 0.5s ease';
+                    
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 100);
+                }, index * 200);
+            });
+        });
+    </script>
+</body>
+</html>

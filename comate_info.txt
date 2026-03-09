@@ -1,0 +1,3196 @@
+ 0o1
+ 0px
+ Baidu 使用百度前必读
+ Iterator
+ and 
+ and right 
+ as a prototype
+ as the namespace 
+ at 
+ at new 
+ fails
+ for languages 
+ inside a function cached with 
+ is missing "loader
+ is not a constructor
+ is not a function
+ is not a symbol
+ is not a valid code point
+ is not an object
+ is not iterable
+ not found
+ of 
+ or directly activate shortcut commands using 
+ required
+ timeout
+ 下载插件后双击插件包安装插件，按弹窗引导操作即可。
+ 中安装 文心快码
+ 请您负责妥善且正确地保管、使用、维护您的BaiduComate用户资料、账户信息及账户密码。请您对您账户信息和账户密码采取必要和有效的保密措施。
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0
+0 0 0 0 currentcolor
+0 0 0 6px currentcolor
+0 0 1024 1024
+0 0 110 120
+0 0 1203 295
+0 0 1440 540
+0 0 16 16
+0 0 17 16
+0 0 24 24
+0 0 280 32
+0 0 32 32
+0 0 343 184
+0 0 46 46
+0 0 484 200
+0 0 72 28
+0 0 98 99
+0 1 auto
+0 8px
+0 solid currentcolor
+0123456789
+0px 
+0rem
+0x16
+100px
+100vh
+100vw
+10px
+11月17日，Figma发布新规，在Figma官方公告中，Figma对Figma REST API的请求速率进行了限制，速率限制适用于OAuth应用和个人访问令牌。
+14px
+200px
+2024summerwavesummit_official
+2024年12月21日，由安盟汇主办，文心快码协办的大湾区数字化峰会，在深圳市福田投资大厦成功举办。此次活动吸引了各行业的CTO、CIO、CSO、CDO等高层管理人员，共同参与了一场知识盛宴。
+2024年9月25日，SuperCLUE发布首期中文原生代码助手测评基准榜单。文心快码在中国厂商中总分排名第一。在细分维度中，代码生成与改写、代码理解与分析、代码优化与修复均为中国厂商最高分。
+20px
+2500
+28px
+296bda250546d77b
+2px 0
+3rdParty
+3秒创建企业空间，团队成员效率翻倍
+40px 0px 0px 0px
+486d6f4e027a4c97
+4e62f59da5d56d49
+50px
+53cbbd2389cf7bfa
+618活动
+64 64 896 896
+64a6fd0bfa4987c5
+6b644d49d11daa3f
+6月23日，Comate AI IDE正式发布，成为行业首个多模态、多智能体协同的独立AI原生开发环境工具。在本期AI DAY上，全面展示了文心快码的高实用性。
+70db3c55e4111be2
+77296f9c0f910d00
+87f498c9f3be33fe
+8b002156b8
+8bbd3fbc0ff89a6a
+93px
+9aa5b3c6dd64ee39
+ACTIVATED
+ACTIVATING
+ACTIVE
+ACTIVITY_1024_AUTO_REDIRECT
+ADMIN
+AGENT
+AI Coding老跑偏？用Comate Rules功能，少走十年弯路！
+AI_IDE
+AI编程再突破，文心快码发布行业首个多模态、多智能体协同AI IDE
+ANALYZE
+ANSWER
+APPROVING
+ASKCOMATEID
+ASSIGNED
+ASSISTANT
+AbortError
+Aborted
+Accessors not supported
+ActiveXObject
+Add log
+Agents
+AggregateError
+AiAgentPdf
+Alert
+Already read
+AmpStateContext
+Animation
+AnimationEnd
+AnimationEvent
+AnimationIteration
+AnimationStart
+AntdIcon
+AppRouterAnnouncer
+Apple Color Emoji
+Argument is not a string
+Arguments
+Array
+Array Iterator
+ArrayBuffer
+ArrowDown
+ArrowLeft
+ArrowRight
+ArrowUp
+Async Validation Error
+AsyncFunction
+AsyncGeneratorFunction
+At least one callback required
+Avatar
+BAD_REQUEST
+BAILOUT_TO_CLIENT_SIDE_RENDERING
+BCat_
+BIND
+BODY
+BROWSER
+Back to today
+BackgroundImageFix
+Backspace
+Bad Promise constructor
+Baidu Comate
+Baidu Comate 更新日志，快速了解产品最新动态
+Baidu Comate隐私协议
+BaiduComate服务提供的会员权益与百度旗下产品会员提供的权益独立不冲突，即您在付费购买BaiduComate服务后，如您同时也开通百度旗下产品（包括但不限于文心一言、百度网盘、百度文库、百度阅读等）相应会员服务的，所涉及重合的权益内容您可叠加享受。
+BaiduComate用户如果不同意条款的修改，可主动向百度提出终止服务，但百度不退还自开通服务至提出终止服务所在月的已享受服务的部分费用；如果BaiduComate用户继续享用服务，则视为BaiduComate用户已经接受条款的修改。
+BaiduComate用户服务协议
+Blob
+Body not allowed for GET or HEAD requests
+Buffer
+Button
+CALC_UNIT
+CANCEL
+CANCELLED
+CCF程序员大会码力全开：AI加速营决赛圆满落幕，大奖花落谁家？
+CHAT_MODEL
+CLOUDFLARE
+CODE
+CODE_LOGIC_ERROR
+COMATE_BAIDU_SEARCH_CODE_SPACE
+COMATE_COMPANY_SIDLER_SIGN
+COMATE_COMPANY_SURVEY_FORM
+COMATE_LNG_FLAG
+COMATE_NEW_CREATE_VIP_TIP
+COMATE_ORGANIZATION_TREE_OPEN
+COMATE_TRACK_UUID_SIGN
+COMATE_UN_LOGIN_SOURCE_SIGN
+COMATE_WEB_SLIDER_OPEN
+COMATE_WEB_SLIDER_OPEN_INIT
+COPY
+CREATE
+CREATED
+CREATE_FAILED
+CREATING
+CSSMotion
+CSS_CHUNK_LOAD_FAILED
+Cache
+Cancel
+Cannot call a class as a function
+Cannot configure a schema with no rules
+Cannot convert a Symbol value to a number
+Cannot convert a Symbol value to a string
+Cannot convert undefined or null to object
+Cannot delete property 
+Cannot find the middleware module
+CapsLock
+Capture
+Carousel
+Center
+Chat提问
+Checkbox
+Choose a decade
+Choose a month
+Choose a week
+Choose a year
+Chrome
+ChunkLoadError
+Clear
+Clear all data
+Click to cancel sorting
+Click to sort ascending
+Click to sort descending
+ClientPageRoot
+Close
+Code Security
+Collapse
+Collapse row
+Color
+Comate AI IDE
+Comate Figma2Code智能体升级，畅享Figma2Code不受限
+Comate logo
+Comate 支持私有化部署
+Comate个人专业版
+Comate个人标准版
+Comate企业版
+Comate是百度基于文心大模型研发的编程辅助工具，提供自动代码生成、单元测试生成、注释生成、研发智能问答等能力，支持上百种编程语言、多种IDE。
+Comate，让编程更简单
+Commands
+CompositionEvent
+ConfigProvider
+Context
+ContextMenu
+Continuation Status
+Control
+Converting circular structure to JSON
+Copied
+Copy
+DELETE
+DELETED
+DENO
+DEPARTMENT
+DEPT_ADMIN
+DIN Alternate
+DOMContentLoaded
+DOMSubtreeModified
+DOMTokenList
+DYNAMIC_SERVER_USAGE
+DataView
+Date
+Debug智能体
+DehydratedFragment
+Delete
+Derived constructors may only return object or undefined
+Deselect all data
+DetermineComponentFrameRoot
+Divider
+Download
+Download file
+Dropdown
+Dynamically displayed the operating state of Comate by a status bar
+ECLIPSE
+ENABLED
+ENOENT
+ENTERPRISE
+ENTERPRISE_PLUS
+ENTERPRISE_PRO
+ERROR
+EXCEPTION
+EXPIRED
+Edit
+Element
+Empty
+End date
+End month
+End quarter
+End time
+End week
+End year
+Enhanced Java unit test generation quality
+Enter
+Error
+Error in 
+Escape
+Event
+Expand
+Expand row
+Expected a function
+Expected sequence with length 2
+FAIL
+FAILED
+FAST
+FORBIDDEN
+FOUND
+Failed to fetch RSC payload for 
+Failed to load 
+FileReader
+Filter menu
+Finish
+FlightData
+Float32Array
+Float64Array
+FormData
+ForwardRef
+Fragment
+Function
+GEELY
+GRADIENT_ANGULAR
+GROUP
+Generate function comments
+Generator
+Generator is already running
+GeneratorFunction
+GitHub 登录
+GitHub仓库
+Gitee 登录
+Go to
+Gradient
+HEAD
+HEARTBEAT
+HMR_ACTIONS_SENT_TO_BROWSER
+HTML
+HeadManagerContext
+Headers
+Help" and "Settings
+Home
+IDC 评估第一
+IDC最新报告，文心快码编程Agent能力满分！
+IE_PROTO
+INACTIVATED
+INACTIVE
+INDIVIDUAL
+INPUT
+INTELLIJ
+INTERNAL
+INVALIDATE_NAME_PATH
+IconReact
+IdeDetail
+Image
+ImageConfigContext
+Improved the code recommendations in a weak network
+Incorrect invocation
+Insert
+Int16Array
+Int32Array
+Int8Array
+IntelliJ IDEA 菜单下点击设置。
+Intelligent CLI
+Invalid authority
+Invalid capture group name
+Invalid character in header field name
+Invalid host
+Invalid port
+Invalid scheme
+Invalid size
+Invalid status code
+Invert current page
+Item
+Iterator
+JSON
+JetBrains IDES（以 IntelliJ IDEA 为例）
+JetBrains IDEs
+JetBrains 端插件更新日志
+Jupyter Notebook 文档支持代码续写功能
+KNOWLEDGE
+LICENSE_ERROR
+LIKE
+LIMIT
+LINK
+LOCAL
+Last century
+Last decade
+Lazy
+Linux
+Load 
+Load script miss src
+Loading CSS chunk 
+Loading chunk 
+M0 0h1440v540H0z
+M0 0h343v184H0z
+M0 0h484v200H0z
+M6 18L18 6M6 6l12 12
+MANAGER
+MAX_CACHE_OFFSET
+MAX_CACHE_SIZE
+MCP 市场
+MCP 连接生态，无缝接入三方工具
+MEMBER
+METRIC
+MONTH
+Markdown
+Math
+Maximum allowed index exceeded
+Memo
+Menu
+Message
+MessageMoveIn
+MessageMoveOut
+Meta
+Mode
+Module
+Month
+NEXTCHIP
+NEXT_NOT_FOUND
+NEXT_REDIRECT
+NEXT_STATIC_GEN_BAILOUT
+NODE
+NONE
+NORMAL
+Natural Language Code Generation" to "Start Chat
+Network request failed
+Newly added Baidu account authentication and fast login by scanning code
+Next
+Next 3 Pages
+Next 5 Pages
+Next Page
+Next century
+Next decade
+No data
+No filters
+No one promise resolved
+Not a redirect error
+Not enough arguments
+NotFoundBoundary
+Null
+NumLock
+Number
+OPPO
+OPTIONS
+Object
+Object already initialized
+Offscreen
+Optimized plugin configuration page
+Optimized the presentation style of stream output in sidebar
+OrgDetail
+Overflow
+PERSONAL
+POST
+PROCESSING
+PaddlePaddle
+Page
+Page Size
+PageDown
+PageNotFoundError
+PageUp
+Pause
+PermanentRedirect
+Personal Information" or perform "Logout
+PingFang SC
+Please select
+Popover
+Portal
+Preview
+Preview file
+Previous
+Previous 3 Pages
+Previous 5 Pages
+Previous Page
+Profiler
+Promise
+PromiseQueue
+QR code expired
+QUARTER
+QUERY
+QUOTA_LIMIT
+RC_FORM_INTERNAL_HOOKS
+READ
+REFRESH FAILED
+RENDER_SYNC
+REPO
+REST
+REVIEW_FAILED
+REVIEW_SERVE_FAILED
+RUNNING
+Radio
+RawItem
+RedirectStatusCode
+Reduce of empty map with no initial value
+Reduce of empty set with no initial value
+Reflect
+ReflectAdapter
+Refresh
+RegExp
+Remove
+Remove all data
+Remove current page
+Remove file
+Request
+Reset
+Resolved feign death of IDEA
+Resolved other known problems
+Resolved the conflict problem of Comate recommendations and original shortcut of IDE
+Resolved the conflict problem of indentation and acception for easier acception
+Resolved the problem of failure to accept interline comments and function splitting
+Resolved the problem of icon display logic before the Java language line
+Resolved the problem of keyboard commands for code explanation
+Resolved the problems due to the unclosed brackets for the more robust code
+Right
+Root
+RouterContext
+Rules must be an object
+Rules 规范执行，保持任务一致可控
+SAAS
+SCRIPT
+SEARCH
+SERVER ACTION APPLY FAILED
+STYLE
+SUCCEED
+SYSTEM
+SaaS 及私有化场景均可放心使用！
+Scanned
+Scope
+ScrollLock
+Search here
+Search in filters
+SeeOther
+Segoe UI
+Segoe UI Emoji
+Select all data
+Select all items
+Select current page
+Select date
+Select month
+Select quarter
+Select time
+Select week
+Select year
+Shared
+Shift
+Single
+SizeContext
+Smart Debug
+Smart commit message generation
+Sort
+SourceAlpha
+SourceGraphic
+Space
+Spec模式赋能百度网盘场景提效
+Start date
+Start month
+Start quarter
+Start time
+Start week
+Start year
+StrictMode
+String
+String Iterator
+SubMenuList
+Super expression must either be null or a function
+SuperClue
+Supported getting user configuration information based on License
+Supports stream output in sidebar for smoother output
+Suspense
+SuspenseList
+Symbol
+Symbol is not a constructor
+THOUGHT
+TRIAL_ENTERPRISE
+TRIAL_INDIVIDUAL
+TTFB
+TemporaryRedirect
+Text
+TextEvent
+Today
+Toolbox
+Toolbox" plugin in the chat using 
+Tooltip
+TracingMarker
+Transition
+TransitionEnd
+TransitionEvent
+Transparent
+Type 
+TypeError
+UNACTIVATED
+UNASSIGNED
+UNBIND
+UNLIKE
+UNSUPPORTED
+URLSearchParams
+USED
+USER
+Uint16Array
+Uint32Array
+Uint8Array
+Uint8ClampedArray
+Undefined
+Unhandled promise rejection
+Unidentified
+Unknown
+Unknown action
+Unknown error
+Updating absent value
+Upload error
+UserDetail
+VISUAL
+VISUAL2019
+VS Code
+VSCODE
+VSCode
+View Changes" and "Adopt
+Visual Studio
+Visual Studio 2019
+Visual Studio Code
+Visual Studio Code 端插件更新日志
+WEBSOCKET
+WEEK
+Warning Icon
+Wave
+Weak
+WeakMap
+WeakSet
+WebKit
+Webkit
+Wechat QRCode
+Window
+Windows
+Wrong number of repetitions
+XCODE
+Xcode
+Xcode comate download
+Xcode download
+Xcode 端插件更新日志
+YEAR
+YYYY
+Year
+You will need to pass in an i18next instance by using i18nextReactModule
+You will need to pass in an i18next instance by using initReactI18next
+YuanShengYanFaPdf
+Zulu
+Zulu 智能体
+_FILE_STYLE__
+__DEFAULT__
+__PAGE__
+__RC_UTIL_PATH_SPLIT__
+__abbaidu_
+__await
+__bubble
+__cssinjs_instance__
+__cycle__
+__esModule
+__html
+__lodash_hash_undefined__
+__lodash_placeholder__
+__nextScript
+__next_error__
+__next_img_default
+__private_
+__proto__
+__rc_react_root__
+__self
+__source
+__wrapped__
+_advanced
+_bAmBoO_
+_blank
+_blankq
+_brightness
+_bundlerConfig
+_chatQuery
+_internalComponents
+_internalDisableMenuItemTitleTooltip
+_internalRenderMenuItem
+_internalRenderSubMenuItem
+_invoke
+_keyframe
+_max
+_maxConcurrency
+_messages
+_min
+_multi_value_
+_paris
+_processNext
+_queue
+_reactListening
+_rsc
+_runningCount
+_self
+_skip_check_
+_swebScene
+a1c3
+abbc
+abcd
+abcdefghijklmnopqrst
+abclite
+abcliteUrl
+abort
+abort auxClick cancel canPlay canPlayThrough click close contextMenu copy cut drag dragEnd dragEnter dragExit dragLeave dragOver dragStart drop durationChange emptied encrypted ended error gotPointerCapture input invalid keyDown keyPress keyUp load loadedData loadedMetadata loadStart lostPointerCapture mouseDown mouseMove mouseOut mouseOver mouseUp paste pause play playing pointerCancel pointerDown pointerMove pointerOut pointerOver pointerUp progress rateChange reset resize seeked seeking stalled submit suspend timeUpdate touchCancel touchEnd touchStart volumeChange scroll scrollEnd toggle touchMove waiting wheel
+abort canplay canplaythrough durationchange emptied encrypted ended error loadeddata loadedmetadata loadstart pause play playing progress ratechange resize seeked seeking stalled suspend timeupdate volumechange waiting
+aborted
+absolute
+accentHeight
+acceptCharset
+acceptLatest
+accepted
+acceptedRate
+acceptedTimes
+acceptedTimesRate
+accessBeat
+acsUrl
+action
+actionAsyncStorage
+active
+active timeout
+activeBarBorderWidth
+activeBarHeight
+activeBarWidth
+activeKey
+activity
+adaptHeight
+addBasePath
+addLocale
+addPathPrefix
+addResource
+addResourceBundle
+addResources
+added
+addedPage
+afterClose
+afterInteractive
+afterPopupVisibleChange
+afterVisibleChange
+afterblur
+agent
+agentUsageCount
+agentUsageUserCount
+agent_id
+aiIde
+aisearchspacehome
+akamai
+alert
+algorithm
+align
+alignPoint
+alignmentBaseline
+allSizes
+allowFullScreen
+alpha
+altKey
+analyze
+angular
+animating
+animation
+animationIterationCount aspectRatio borderImageOutset borderImageSlice borderImageWidth boxFlex boxFlexGroup boxOrdinalGroup columnCount columns flex flexGrow flexPositive flexShrink flexNegative flexOrder gridArea gridRow gridRowEnd gridRowSpan gridRowStart gridColumn gridColumnEnd gridColumnSpan gridColumnStart fontWeight lineClamp lineHeight opacity order orphans scale tabSize widows zIndex zoom fillOpacity floodOpacity stopOpacity strokeDasharray strokeDashoffset strokeMiterlimit strokeOpacity strokeWidth MozAnimationIterationCount MozBoxFlex MozBoxFlexGroup MozLineClamp msAnimationIterationCount msFlex msZoom msFlexGrow msFlexNegative msFlexOrder msFlexPositive msFlexShrink msGridColumn msGridColumnSpan msGridRow msGridRowSpan WebkitAnimationIterationCount WebkitBoxFlex WebKitBoxFlexGroup WebkitBoxOrdinalGroup WebkitColumnCount WebkitColumns WebkitFlex WebkitFlexGrow WebkitFlexPositive WebkitFlexShrink WebkitLineClamp
+animationName
+animationend
+animationiteration
+animationstart
+answer
+antMoveDownIn
+antMoveDownOut
+antMoveLeftIn
+antMoveLeftOut
+antMoveRightIn
+antMoveRightOut
+antMoveUpIn
+antMoveUpOut
+antSlideDownIn
+antSlideDownOut
+antSlideLeftIn
+antSlideLeftOut
+antSlideRightIn
+antSlideRightOut
+antSlideUpIn
+antSlideUpOut
+antZoomBigIn
+antZoomBigOut
+antZoomDownIn
+antZoomDownOut
+antZoomIn
+antZoomLeftIn
+antZoomLeftOut
+antZoomOut
+antZoomRightIn
+antZoomRightOut
+antZoomUpIn
+antZoomUpOut
+antd
+antialiased
+anticon
+apiDocUrl
+appBootstrap
+appear
+append
+appendDots
+applyFlightData
+applyRouterStatePatchToTree
+arab
+arabicForm
+architecture
+area
+arity
+array
+arrow
+arrowContent
+arrows
+assertive
+assign detection
+async
+asyncDispose
+asyncIterator
+attribute
+audio
+audioworklet
+audit
+auditLog
+auth
+auto
+autoDebugTimes
+autoDestroy
+autoFocus
+autoInsertSpace
+autoPlay
+autoReverse
+auxclick
+avatar
+b2ad5f503d5399fb
+ba16dcd3
+backend
+backendConnector
+backwards
+baiducomate
+bailoutToClientRendering
+baipishu
+banner
+banti
+bantiOptions
+bantiUrl
+base
+baseline
+baselineShift
+beforeInteractive
+beforePageRender
+beforePopState
+beforeblur
+beforeinput
+bigint
+bind
+bindKey
+black
+blendMode
+blob
+block
+blocked
+blue
+blur
+blurDelay
+body
+boolean
+borderBottom
+borderBottomColor
+borderBottomLeftRadius
+borderBottomRightRadius
+borderBottomStyle
+borderBottomWidth
+borderLeft
+borderLeftColor
+borderLeftStyle
+borderLeftWidth
+borderRadius
+borderRight
+borderRightColor
+borderRightStyle
+borderRightWidth
+borderStyle
+borderTop
+borderTopColor
+borderTopLeftRadius
+borderTopRightRadius
+borderTopStyle
+borderTopWidth
+borderWidth
+borderless
+botQuery
+both
+bottom
+bottomLeft
+bottomRight
+break
+browser
+browser console
+buffer
+building
+built
+builtinPlacements
+business
+button
+buttonsRender
+byteLength
+byteOffset
+c83812e98d08c9b1
+cache
+cacheCallTimes
+callServer
+callbacks
+callee
+canParse
+cancel
+cancel close invalid load scroll scrollend toggle
+cancelRegister
+cancelRegisterFunc
+cans
+capHeight
+capture
+cardinal
+carousel
+castk
+catch
+catchLoc
+catchall
+cause
+cb2761a0e98f01c3
+cc5c9d39ca9f7596
+ceil
+center
+center center
+centerMode
+centerPadding
+chain
+change
+change click focusin focusout input keydown keyup selectionchange
+changeSlide
+charCode
+charSet
+charset
+chat
+chatId
+check
+checkImagesLoad
+checkbox
+checked
+childList
+children
+cimode
+circle
+citation
+clarify
+class
+className
+classNames
+clear
+clearCacheNodeDataForSegmentPath
+clearOnDestroy
+clearTimeout
+clearTimeout has not been defined
+click
+clickHandler
+clickid
+client
+clientCacheTTL
+clientChanges
+clientId
+clip
+clip0_424_9260
+clip0_691_7200
+clip1_691_7200
+clipPath
+clipRule
+clipboardData
+closable
+close
+closeIcon
+closeText
+cloudinary
+code
+codeExplainTimes
+codeInlineCommentTimes
+codePointAt
+codeSearchUrl
+codeSplitTimes
+codeToCommentTimes
+codeTuningTimes
+collapsed
+collapsedWidth
+color
+colorActiveBarBorderSize
+colorActiveBarHeight
+colorActiveBarWidth
+colorDangerItemBgActive
+colorDangerItemBgSelected
+colorDangerItemText
+colorDangerItemTextHover
+colorDangerItemTextSelected
+colorGroupTitle
+colorInterpolation
+colorInterpolationFilters
+colorItemBg
+colorItemBgActive
+colorItemBgHover
+colorItemBgSelected
+colorItemBgSelectedHorizontal
+colorItemText
+colorItemTextDisabled
+colorItemTextHover
+colorItemTextHoverHorizontal
+colorItemTextSelected
+colorItemTextSelectedHorizontal
+colorProfile
+colorRendering
+colorSubItemBg
+cols
+column
+comate
+comate web在线演示 start
+comateAgentApply
+comateAgentApplyFromIDE
+comateAgentApplyFromWeb
+comate_key
+comate_user_login_type
+comate_x
+comm
+comment
+commentToCodeTimes
+compact
+company
+companyFreeTrial
+companyId
+companyProprietary
+companyStandard
+complete
+completed
+component
+componentDidCatch
+componentDidMount
+componentDidUpdate
+componentWillUnmount
+components
+compositionend
+compositionend focusout keydown keypress keyup mousedown
+compositionstart
+compositionstart focusout keydown keypress keyup mousedown
+compositionupdate
+compositionupdate focusout keydown keypress keyup mousedown
+config
+configurable
+confirm
+construct
+constructor
+contain
+contains
+content
+contentEditable
+content_id
+context
+contextMenu
+contextType
+contextmenu
+continue
+continueAcceptedRate
+continueAcceptedTimes
+continueSuggestedTimes
+controls
+cookie
+copy
+copyWithin
+costAmount
+could not read FormData body as blob
+could not read FormData body as text
+cover
+create
+createAsyncLocalStorage
+createHrefFromUrl
+createInitialRouterState
+createObjectURL
+createRouterCacheKey
+crossOrigin
+crossorigin
+cssEase
+cssVar
+ctrlKey
+currency
+current
+current license is already in use on another device
+currentColor
+currentOnly
+currentSlide
+currentcolor
+curry
+curryRight
+custom
+customMatcher
+customPaging
+customSuggestTimes
+cyan
+cyclic
+cyrl
+danger
+dangerItemActiveBg
+dangerItemColor
+dangerItemHoverColor
+dangerItemSelectedBg
+dangerItemSelectedColor
+dangerous
+dangerouslySetInnerHTML
+dark
+dashed
+dashed none none
+data
+date
+dblclick
+debug
+decl
+decode
+deepSeek
+default
+defaultActiveFirst
+defaultChecked
+defaultMotions
+defaultOpenKeys
+defaultPopupVisible
+defaultProps
+defaultSelectedKeys
+defaultValue
+defaultVisible
+defer
+define
+defineProperty
+defs
+delete
+deleteByPath
+deltaX
+deltaY
+dependenciesUpdate
+deptPersonCount
+derivatives
+desc
+description
+description detection
+destroy
+destroyForm
+destroyPopupOnHide
+destroyTooltipOnHide
+details
+devPagesManifestUpdate
+dgimsy
+dialog
+didPropsChange
+difference
+digest
+direction
+dirty
+disableBodyScroll
+disablePictureInPicture
+disableRemotePlayback
+disabled
+disabledOverflow
+disc
+disconnect
+dislikeTimes
+dispatch
+display
+dispose
+divider
+docSearchUrl
+document
+documentElement
+documentMode
+dominantBaseline
+done
+dotActiveWidth
+dotAll
+dotPosition
+dotWidthActive
+dots
+dotsClass
+dotted
+dotted none none
+down
+download
+drag
+dragend
+dragenter
+dragexit
+draggable
+dragleave
+dragover
+dragstart
+drop
+dropRight
+dropdown
+dropdownRender
+dynamic
+ease
+ef801f80c64df8ad
+effect1_dropShadow_436_21532
+effect1_foregroundBlur_1835_22684
+effect1_foregroundBlur_436_21532
+effect1_foregroundBlur_691_7200
+effect2_dropShadow_436_21532
+effect3_foregroundBlur_436_21532
+elementRef
+ellipse
+ellipsis
+email
+embed
+empty
+en_US
+enableBackground
+enableBodyScroll
+encType
+endTo
+endsWith
+ensureLeadingSlash
+enter
+enterprise
+enterprise_private_deployment
+entries
+enum
+enumerable
+equal
+equals
+error
+error_
+errors
+escapeStringRegexp
+evenodd
+event
+eventKey
+eventProps
+executing
+expandIcon
+expired
+explore
+extension
+external
+externalResourcesRequired
+extra
+extraData
+f568d7e099d02bae
+f6159d292dd0fcdc
+fade
+failed
+failed to decode param
+failedLoading
+fallback
+fallbackLng
+false
+fastRefreshReducer
+fe432c18ce31cd4b
+feBlend
+feColorMatrix
+feComposite
+feFlood
+feGaussianBlur
+feOffset
+fetch
+fetchServerResponse
+fieldEntities
+fields
+file
+fill
+fillCacheWithNewSubTreeData
+fillLazyItemsTillLeafWithHead
+fillOpacity
+fillRule
+filled
+filter
+filter0_ddf_436_21532
+filter0_f_1835_22684
+filter0_f_691_7200
+filter1_f_1835_22684
+filter1_f_436_21532
+filter1_f_691_7200
+filter2_f_1835_22684
+filter2_f_436_21532
+filter2_f_691_7200
+filter3_f_436_21532
+finally
+finallyLoc
+find
+findHeadInCache
+findIndex
+fixed
+flags
+flat
+flatMap
+flex
+flex 
+flip
+float
+floodColor
+floodOpacity
+floor
+focus
+focusDelay
+focusOnSelect
+focusable
+focused
+focusin
+focusout
+focusout contextmenu dragend focusin keydown keyup mousedown mouseup selectionchange
+font
+fontFamily
+fontSize
+fontSizeAdjust
+fontStretch
+fontStyle
+fontVariant
+fontWeight
+forceAlign
+forcePopupAlign
+forceRender
+forceRootUpdate
+forceSubMenuRender
+forceUpdate
+foreignObject
+form
+formAction
+formEncType
+formHooked
+formMethod
+formNoValidate
+formTarget
+formatter
+forwards
+frequency_penalty
+fresh
+fromCodePoint
+frontend
+fulfilled
+full
+fullscreenchange
+function
+geekblue
+general
+generating
+generation
+generativeAcceptedRate
+generativeAcceptedTimes
+generativeSuggestedTimes
+get 
+getColors
+getCompositeKey
+getContainer
+getControlled
+getDataByLanguage
+getDependencyChildrenFields
+getDeploymentIdQueryOrEmptyString
+getDerivativeToken
+getDerivedStateFromProps
+getDomainLocale
+getEntriesByName
+getErrors
+getFieldEntities
+getFieldEntitiesForNamePathList
+getFieldError
+getFieldValue
+getFieldWarning
+getFields
+getFieldsError
+getFieldsMap
+getFieldsValue
+getForm
+getHash
+getHost
+getHostname
+getImageBlurSvg
+getImgProps
+getInitialValue
+getInternalHooks
+getMeta
+getName
+getNamePath
+getObjectID
+getOnlyChild
+getOrigin
+getOwnPropertyNames
+getPassword
+getPathname
+getPopupClassNameFromAlign
+getPopupContainer
+getPort
+getProtocol
+getResource
+getResourceBundle
+getResult
+getRouteMatcher
+getRules
+getSearch
+getSearchParams
+getSegmentParam
+getSegmentValue
+getSortedRoutes
+getTargetContainer
+getTooltipContainer
+getTriggerDOMNode
+getType
+getUsername
+getValidationMethod
+getValue
+getWarnings
+ghost
+gimsy
+gitee
+github
+global
+glyphName
+glyphOrientationHorizontal
+glyphOrientationVertical
+gold
+gotpointercapture
+grayscale
+green
+group
+groupTitleColor
+handleMutable
+handleRef
+handleSegmentMismatch
+handleSmoothScroll
+hans
+hant
+hardAlpha
+hasBasePath
+hasInstance
+hasInterceptionRouteInCurrentTree
+hasOwnProperty
+hasResourceBundle
+hash
+hashchange
+head
+height
+hex3
+hex4
+hex6
+hex8
+hidden
+hideAction
+high
+holderRender
+home
+home bottom contact us customer service
+home bottom contact us enter survey
+home bottom contact us private deployment
+home bottom right enter survey
+home bottom right show wechat
+home bottom right to service
+horizAdvX
+horizOriginX
+horizontal
+horizontalItemHoverColor
+horizontalItemSelectedBg
+horizontalItemSelectedColor
+host
+hostname
+hover
+hovered
+href
+hsla
+hsva
+html
+htmlFor
+htmlTag
+htmlType
+htmlfile
+httpEquiv
+hydrate
+i18nFormat
+icon
+iconPosition
+iframe
+ignoreOutSideClick
+illegal catch attempt
+image
+imageRendering
+imgix
+important
+inUse
+include
+includes
+index
+infinite
+info
+inherit
+initEntityValue
+initial
+initialValues
+initialized
+inline
+inlineCollapsed
+inlineIndent
+innerHTML
+innerSliderRefHandler
+input
+inside
+instanceId
+integer
+intel
+internal
+internalGet
+internalMark
+internalPopupClose
+interpolateAs
+interpolation
+interpolator
+intersection
+invalid
+invalidate
+invalidateCacheBelowFlightSegmentPath
+invalidateCacheByRouterState
+invariant expected app router to be mounted
+invariant expected layout router to be mounted
+invariant global layout router not mounted
+inview
+invisible
+inviteCode
+isBot
+isConcatSpreadable
+isDisjointFrom
+isDynamicRoute
+isFieldDirty
+isFieldTouched
+isFieldValidating
+isFieldsTouched
+isFieldsValidating
+isFinite
+isGradient
+isInAmpMode
+isList
+isListField
+isLocalURL
+isLogin
+isMergedPreserve
+isNavigatingToNewRootLayout
+isNextRouterError
+isPreserve
+isPrototypeOf
+isRegisteredSymbol
+isSubsetOf
+isSupersetOf
+isValid
+isWait
+isWellKnownSymbol
+item
+itemActiveBg
+itemBg
+itemBorderRadius
+itemColor
+itemComponent
+itemDisabledColor
+itemHoverBg
+itemHoverColor
+itemIcon
+itemKey
+itemProp
+itemScope
+itemSelectedBg
+itemSelectedColor
+itemWidth
+itemprop
+items
+iterator
+iterator result is not an object
+java
+jetBrainsIdes
+jetbrains download
+jetbrains plugin download
+joinArrays
+keep
+keyHandler
+keyManagement
+keySeparator
+keydown
+keygen
+keypress
+keys
+keyup
+knowledge
+kuaima
+label
+landingPageButton
+landingPageMid
+language
+languageChanged
+languageChanging
+languageDetector
+languageOnly
+languageUtils
+large
+last
+lastAccessBeat
+lastUsedTime
+lastValidatePromise
+latn
+layer
+lazy
+lazyLoad
+lazyLoadedList
+lazyOnload
+leading
+leave
+leavedClassName
+left
+left 
+leftBottom
+leftTop
+length
+letterSpacing
+licenseManagement
+light
+lightingColor
+likeTimes
+lime
+linear
+linearGradient
+link
+listHeight
+listRefHandler
+listWidth
+lngs
+load
+loadFeedback
+loaded
+loading
+locale
+localhost
+location
+locked
+logger
+loop
+lostpointercapture
+lowPriority
+luminance
+macArm64
+macOS
+macX64
+magenta
+main
+mainCDNRetryCnt
+mainReportRetryCnt
+mainReportUrl
+manipulation
+manual
+margin
+marginBottom
+marginLeft
+marginRight
+marginTop
+mark
+markerEnd
+markerMid
+markerStart
+mask
+mask0_1835_22684
+mask0_703_8153
+maskAnimation
+maskClosable
+maskMotion
+maskTransitionName
+match
+matchAll
+matcher
+math
+maxCount
+maxWait
+max_tokens
+measure
+media
+member
+menu
+menuitem
+message
+messages
+meta
+metaCache
+metaKey
+metadata
+metadataKey
+method
+middle
+middlewareChanges
+minHeight
+minOverlayWidthMatchTrigger
+minWidth
+missing
+missingKey
+mode
+module
+modulepreload
+mong
+monitoring
+motion
+motionAppear
+motionDeadline
+motionEnter
+motionLeave
+motionLeaveImmediately
+motionName
+mounted
+mouse
+mouseEnterDelay
+mouseLeaveDelay
+mousedown
+mousedown mouseup touchcancel touchend touchstart auxclick dblclick pointercancel pointerdown pointerup dragend dragstart drop compositionend compositionstart keydown keypress keyup input textInput copy cut paste click change contextmenu reset
+mouseenter
+mouseleave
+mousemove
+mouseout
+mouseover
+mouseup
+movementX
+movementY
+multiple
+muted
+name
+nav2
+navigate
+navigator
+nearest
+newMedia
+news
+next
+nextArrow
+nextID
+noModule
+noValidate
+node
+noindex
+nonce
+none
+nonzero
+noop
+noreferrer
+normal
+normalizePathTrailingSlash
+noscript
+not 
+not all
+notifyObservers
+notifyWatch
+nowrap
+nsSeparator
+null
+number
+nxtI
+nxtP
+obj_
+object
+objectIDMap
+objects
+observable
+observe
+offset
+omission
+omit
+onAllRemoved
+onAnimationEnd
+onAnimationIteration
+onAnimationStart
+onAppearActive
+onAppearEnd
+onAppearPrepare
+onAppearStart
+onBeforeInput
+onBlur
+onChange
+onClick
+onClickCapture
+onClose
+onCompositionEnd
+onCompositionStart
+onCompositionUpdate
+onContextMenu
+onDeselect
+onDotsLeave
+onDotsOver
+onDoubleClick
+onDoubleClickCapture
+onEnterActive
+onEnterEnd
+onEnterStart
+onError
+onFieldsChange
+onFinish
+onFinishFailed
+onFocus
+onKeyDown
+onLeaveActive
+onLeaveEnd
+onLeaveStart
+onLoad
+onMouseDown
+onMouseDownCapture
+onMouseEnter
+onMouseLeave
+onMouseMove
+onMouseMoveCapture
+onMouseUp
+onMouseUpCapture
+onOpenChange
+onPointerEnter
+onPointerLeave
+onPopupAlign
+onPopupClick
+onPopupVisibleChange
+onReady
+onScroll
+onScrollEnd
+onSelect
+onSlideBlur
+onSlideFocus
+onStoreChange
+onTitleClick
+onTitleMouseEnter
+onTitleMouseLeave
+onTouchMove
+onTouchStart
+onTrackLeave
+onTrackOver
+onTransitionEnd
+onValuesChange
+onVisibleChange
+onVisibleChanged
+onWheel
+onWindowResized
+oninput
+onload
+onpropertychange
+onreadystatechange
+onresize
+ontouchstart
+opGet
+opUpdate
+opacity
+opacity 
+open
+openAnimation
+openCenter
+openKeys
+openTransitionName
+opsService
+optimizeLegibility
+option
+orange
+order
+ordinal
+organization
+organize
+orientation
+orientationMargin
+origin
+originRCField
+original
+outlined
+overflowedIndicator
+overflowedIndicatorPopupClassName
+overlay
+overlayClassName
+overlayInnerStyle
+overlayStyle
+overlinePosition
+overlineThickness
+override
+ownKeys
+padEnd
+padStart
+padding
+paddingBottom
+paddingLeft
+paddingRight
+paddingTop
+page
+pages
+pageshow
+pageview
+pagination
+paint0_linear_1835_22684
+paint0_linear_252_8365
+paint0_linear_2809_29465
+paint0_linear_2809_29470
+paint0_linear_2809_29475
+paint0_linear_2809_29485
+paint0_linear_2811_31094
+paint0_linear_304_3069
+paint0_linear_424_9260
+paint0_linear_436_21532
+paint0_radial_691_7200
+paint0_radial_703_8153
+paint1_angular_304_3069_clip_path
+paint1_angular_436_21532_clip_path
+paint1_linear_1835_22684
+paint1_linear_252_8365
+paint1_linear_2809_29465
+paint1_linear_2809_29470
+paint1_linear_2809_29475
+paint1_radial_691_7200
+paint2_angular_436_21532_clip_path
+paint2_linear_1835_22684
+paint3_linear_1835_22684
+paint3_linear_436_21532
+paint4_radial_436_21532
+paint5_radial_436_21532
+paint6_linear_436_21532
+paintOrder
+paintworklet
+param
+parent
+paris_
+parseInt
+parsePath
+partial
+partialRight
+passive
+passport
+password
+paste
+path
+pathHasPrefix
+pathname
+pattern
+patternMatch
+pause
+paused
+pending
+personalFree
+personalProfessional
+pink
+placeholder
+placement
+placements
+plain
+platform
+play
+played
+playing
+playsInline
+plugin
+plural
+pluralResolver
+pointer
+pointerEvents
+pointercancel
+pointerdown
+pointerenter
+pointerleave
+pointermove
+pointerout
+pointerover
+pointerup
+polite
+popover
+popstate
+popup
+popupAlign
+popupAnimation
+popupClassName
+popupMotion
+popupOffset
+popupPlacement
+popupStyle
+popupTransitionName
+popupVisible
+port
+portraint
+position
+post
+postProcess
+postProcessor
+postcloned
+powerSource
+precloned
+preconnect
+prefetch
+prefixCls
+preload
+prepare
+prepared
+prepend
+prependQueue
+presence_penalty
+presentation
+preserve
+preserveAlpha
+prev
+prevArrow
+prevValidating
+prevWithoutPreserves
+preventExtensions
+previous
+prgb
+pricing
+primary
+primaryColor
+process
+processing
+progress
+progressive
+progressiveLazyLoad
+property
+propertyIsEnumerable
+props
+protocol
+prototype
+pure
+purple
+push
+query
+question
+queue
+queueMicrotask
+qzone
+radialGradient
+radio
+radiusItem
+radiusSubMenuItem
+ratechange
+rc_unique_
+reRender
+react
+read
+readOnly
+readme
+readonly
+realtimeGenerateRate
+realtimeModifyLines
+rearg
+rect
+redirect
+reducer
+references
+refetch
+refresh
+refreshReducer
+regexp
+register
+registerField
+registerSize
+registerWatch
+regular slider 
+rejected
+rejectionHandled
+rejectionhandled
+related
+relative
+relativetime
+reloadPage
+remove
+removeBasePath
+removeKey
+removeOnLeave
+removeResourceBundle
+removeTrailingSlash
+removed
+removedPage
+render
+renderEmpty
+renderItem
+renderNotifications
+renderRawItem
+renderRawRest
+renderRest
+renderingIntent
+repeat
+replace
+replaceAll
+repo
+reportTimeout
+requestAnimationFrame
+requestAsyncStorage
+required
+reset
+resetFields
+resetWithFieldInitialValue
+resize
+resizeWindow
+resolveHref
+resolved_model
+resolved_module
+resourceStore
+response
+responseType
+responseURL
+responsive
+responsiveDisabled
+restore
+restoreReducer
+result
+retainAcceptedRate
+retitle
+return
+return 
+return this
+returnDetails
+returnObjects
+reusable
+reverse
+reversed
+revokeObjectURL
+rgba
+right
+rightBottom
+rightTop
+robots
+role
+root
+rootClassName
+rotate
+round
+route
+rowSpan
+rows
+rule
+rules
+running
+sRGB
+saas
+scenarios
+scene
+scoped
+script
+scroll
+scrollend
+seamless
+search
+searchParams
+searchid
+secondCDNRetryCnt
+secondReportRetryCnt
+secondReportUrl
+secondaryColor
+section
+seeked
+select
+select date
+select time
+selectHandler
+selectable
+selected
+selectedKeys
+selectionStart
+selectionchange
+selectstart
+separator
+serialize
+serve
+server
+server logs
+serverActionReducer
+serverComponentChanges
+serverError
+serverOnlyChanges
+serverPatchReducer
+service
+services
+serviceworker
+session
+set 
+setCallbacks
+setField
+setFieldValue
+setFields
+setFieldsValue
+setHash
+setHost
+setHostname
+setHref
+setInitialValues
+setPassword
+setPathname
+setPort
+setPreserve
+setProtocol
+setSearch
+setState
+setTimeout
+setTimeout has not been defined
+setUsername
+setValidateMessages
+sham
+shape
+shapeRendering
+sharedworker
+shift
+shiftKey
+shortcut icon
+shouldHardNavigate
+showAction
+showArrow
+showIcon
+shunfeng
+siderCollapsed
+site
+size
+slashes
+slickGoTo
+slickNext
+slickPause
+slickPlay
+slickPrev
+slideCount
+slideHandler
+slideHeight
+slideIndex
+slideWidth
+slidesToScroll
+slidesToShow
+small
+smartUtTimes
+smooth
+solid
+something
+sort
+source
+sourceURL
+space
+span
+species
+speed
+spellCheck
+spin
+splice
+split
+srcSet
+srcid
+ssrInit
+stack
+stale
+start
+startFrom
+startsWith
+state
+static
+staticGenerationAsyncStorage
+status
+statusText
+sticky
+stop
+stopColor
+stopOpacity
+stops
+stopsVar
+store
+strategy
+stretch
+strikethroughPosition
+strikethroughThickness
+string
+stringify
+stringify detection
+strokeDasharray
+strokeDashoffset
+strokeLinecap
+strokeLinejoin
+strokeMiterlimit
+strokeOpacity
+strokeWidth
+strong
+style
+styles
+stylesheet
+stylesheets
+subMenuCloseDelay
+subMenuItemBg
+subMenuItemBorderRadius
+subMenuOpenDelay
+subid
+submit
+subscribable
+success
+suffix
+suggested
+suggestedTimes
+suppressContentEditableWarning
+suppressHydrationWarning
+suspendedStart
+suspendedYield
+swipeEnd
+swipeMove
+swipeStart
+symbol
+symbol detection
+symbols
+symmetricDifference
+sync
+tabIndex
+tabindex
+table
+tail
+take
+takeRight
+takeWhile
+target
+targetSlide
+technicalQaTimes
+temperature
+temporary
+test
+text
+textAlign
+textAnchor
+textArea
+textDecoration
+textInput
+textRendering
+textarea
+theme
+then
+think
+thirdPartyLogin
+third_content_id
+throw
+thru
+timeout
+timeoutId
+timeupdate
+title
+titleMinWidth
+to right
+toCssString
+toHex
+toHexString
+toHsb
+toHsbString
+toJSON
+toLocaleString
+toLowerCase
+toPrimitive
+toRgb
+toRgbString
+toString
+toStringTag
+toUpperCase
+together
+toggle
+token
+tooltip
+top 
+topLeft
+topRight
+top_p
+touchEnd
+touchcancel
+touched
+touchend
+touches
+touchmove
+touchstart
+track
+trackRef
+trackRefHandler
+trackStyle
+trailing
+transform
+transform 
+transformOrigin
+transitionName
+transitionend
+translation
+translator
+transparent
+trigger
+triggerDependenciesUpdate
+triggerMetaEvent
+triggerOnFieldsChange
+triggerSubMenuAction
+trimEnd
+trimLeft
+trimRight
+trimStart
+true
+try statement without catch or finally
+tsina
+twoToneColor
+type
+u2028
+u2029
+unUse
+undefined
+underlinePosition
+underlineThickness
+unhandledRejection
+unhandledrejection
+unicodeBidi
+unicodeRange
+union
+unitlessCssVar
+unitsPerEm
+unknown
+unobserve
+unresolvedThenable
+unscopables
+unset
+unshift
+unslick
+update
+updateKey
+updateState
+updateStore
+updateValue
+upsert
+use server
+use strict
+useCSS
+useIntersection
+useParams
+usePathname
+useRouter
+useSearchParams
+useServerInsertedHTML
+useSubscribe
+user
+userSpaceOnUse
+username
+utf8
+util
+utils
+vAlphabetic
+vHanging
+vIdeographic
+vMathematical
+validate
+validateField
+validateFields
+validateFinish
+validateMessages
+validatePromise
+validateRules
+validateTrigger
+validating
+validators
+value
+valueOf
+valueUpdate
+values
+variable
+variableWidth
+variant
+vary
+vectorEffect
+vertAdvY
+vertOriginX
+vertOriginY
+vertical
+video
+viewBox
+viewport
+visible
+visibleFirst
+void
+volcano
+volumechange
+vs comate download
+vs download
+vsCode
+vscode comate download
+vscode download
+vscode download from modal
+vscode vsix download
+waitForAnimate
+warn
+warnKey
+warnOnce
+warning
+warningUnhooked
+warnings
+watchList
+wave
+webQaSuggestedTimes
+webTrack
+webkit
+weight
+weixin
+wheel
+wheelDelta
+wheelDeltaX
+wheelDeltaY
+white
+width
+win32
+winArm64
+withoutSetter
+word
+wordSpacing
+worker
+workspace
+wrap
+wrapper
+writable
+writingMode
+xHeight
+xMidYMid
+xMidYMid slice
+ximalaya
+xlinkActuate
+xlinkArcrole
+xlinkHref
+xlinkRole
+xlinkShow
+xlinkTitle
+xlinkType
+xmlBase
+xmlLang
+xmlSpace
+xmlnsXlink
+yellow
+zIndex
+zIndexPopup
+zulu
+zuluAcceptedRate
+zuluSuggestedTimes
+zxcasd
+一、定义和说明
+一、计划宗旨
+一人即团队，SubAgent引爆开发者新范式
+一键下载
+七、法律的适用和管辖
+三、扶持权益
+三、服务内容及服务规范 
+上传成功
+上传知识
+上海三菱电梯
+下单时间
+下发权益：百度向签约的扶持对象下发相应的权益。
+下次扣款时间：
+下载 Apple 芯片版
+下载 Intel 芯片版
+下载 JetBrains 插件离线安装包
+下载 VSCode 插件离线安装包
+下载 Visual Studio Code 后，点击下方按钮唤起 Visual Studio Code 插件市场直接安装 文心快码（Baidu Comate） 插件，安装后请登录百度账号，即可开启智能编码之旅。
+下载 其他版本
+下载Baidu Comate安装包， 
+下载发票
+下载安装
+下载安装页面翻译 start
+下载插件
+下载插件后双击插件包安装插件，按弹窗引导操作即可
+下载插件后双击插件包安装插件，按弹窗引导操作即可。
+下载文心快码（Baidu Comate）安装包，
+下载离线安装包
+下载页在
+下载页安装
+不会。我们根据隐私协议，遵循负责任的做法，确保您的代码片段不会被用作 文心快码（Baidu Comate）其他用户的建议代码。
+专业版：面向专业开发者，基础功能和高级功能都不限量使用。
+专属VPC部署
+专属客户服务
+专有网络访问
+业务迭代快
+个人VIP全部功能
+个人专业版
+个人中心 start
+个人信息
+个人免费使用
+个人增值税普通发票
+个人或者企业从百度智能云购买 License 后，可按下图完成用户名和 License 的配置。
+个人标准版
+个人版本、企业版本、私有化版本有什么区别？
+个人知识集
+个人积分：
+个相关结果
+中国软件行业协会
+中国铁塔
+中安装 文心快码（Baidu Comate）
+中止或终止服务后，百度将尽最大努力通过合理方式通知用户。当您发现无法登录或享受服务时，可以咨询我们的在线客服。
+中联重科
+为了向您提供更好的服务，百度可能会对产品功能及服务进行调整，包括但不限于：
+为扶持对象提供为期两年（24 个月）的文心快码（Baidu Comate）企业版账号的免费使用权益。
+为确保数据安全与隐私保护，我们提供完整的私有化部署方案，满足您的专属需求
+主动思考，预测建议代码变更操作，智能预判开发位置，实现多位置跳转、跨文件续写。
+了解更多特性
+二、扶持对象
+二、账号管理及使用规则
+五、服务的变更、中止及终止
+五、权益申请和下发流程
+产品定价
+京ICP证030173号
+京公网安备11000002000001号
+人机结对编程的十二条原则
+什么是文心快码（Baidu Comate）？
+仅一个季度实现全面落地，将喜马拉雅积累的研发能力、知识和文心快码融合，大幅缩短了技术调研和代码编写时间，极大提升了企业整体研发效率和产品质量。
+仅我可见
+仓库支持单文件小于1M，所有文件总小于100M
+代码优化：长函数拆分代码重构、自然语言优化代码
+代码助手全面进入智能体时代
+代码型知识集
+代码安全有保障
+代码注释
+代码注释生成：函数注释、行间注释
+代码生成
+代码生成单测
+代码生成：自然语言描述生成代码、增强生成
+代码知识集
+代码解释
+代码调优
+代码重构
+代码问答
+代码问答智能体
+代码问题分析与修复
+价格页 start
+价格页元
+任务拆解
+企业专业版
+企业专享版
+企业专属版
+企业主页
+企业免费开通
+企业免费试用
+企业增值税普通发票
+企业开通
+企业微信群技术支持
+企业服务咨询
+企业标准版
+企业用户该如何接入文心快码（Baidu Comate）？
+企业知识集
+企业私域知识增强
+企业私域知识无缝对接，代码助手更懂企业。开放集成企业内部服务，为组织量身打造更适合的助手
+企业管理
+企业管理员
+企业落地快
+企业购买咨询
+优化 Comate 推荐和 IDE 自带推荐框冲突的问题
+优化代码生成异常时的提示信息
+优化代码补全场景，提升 coding 与推荐的流畅性
+优化代码解释功能的上下文获取策略，提升解释准确率
+优化侧边栏流式输出呈现形式
+优化侧边栏流式输出问答时，自动向下滑动的体验问题
+优化取消本次推荐命令并默认绑定快捷键的设置问题
+优化存在推荐内容时删除字符不流畅的体验问题
+优化弱网环境代码推荐体验
+优化打开侧边栏后输入框自动聚焦的问题，提升问答体验
+优化插件配置页面
+你可以试着问我
+你将学到
+你已经来到登录页，请打开手机百度扫码登录
+使用Client Hints失败，回退到UA检测
+使用手册
+使用百度前必读
+依托文心快码领先的代码补全、技术问答能力、单测及注释生成功能，不仅极大提升了开发效率，还确保了代码的准确性及可维护性，为公司的技术创新和业务发展注入了强大动力。
+修复 Comate 推荐与 IDE 原生快捷操作冲突问题
+修复 IDEA 假死的问题
+修复了因括号未闭合导致的问题，生成的代码更加健壮
+修复了缩进和采纳存在的冲突问题，采纳体验更加丝滑
+修复代码解释快捷指令的问题
+修复侧边栏没有历史消息时仍可以清空消息的问题
+修复侧边栏流式输出问答偶现输出中断的问题
+修复侧边栏生成结果部分语言没有语法高亮的问题
+修复其他已知问题
+修复函数注释结果的行首空格问题
+修复建议
+修复获取不到设备 ID 的问题
+修复获取默认用户名失败时插件激活失败的问题
+修复行间注释和函数拆分采纳失败的问题
+修复链接远端机器时不显示函数功能按钮的问题
+修改 Java 语言行前图标展示逻辑的问题
+停止生成
+充值开通
+免费个人
+免费使用
+免费开通
+免费预约产品演示
+全企业范围内共用，永久有效，支持
+全方位支持多种主流IDE与编程语言
+全栈编程智能体
+全网检索
+全部内容类型
+全部知识集
+全面详细的数据报表
+公司名称
+六、通知和送达
+关注文心快码公众号
+其实多智能体系统是一个非常自然的想法。因为单个智能体的能力总是有限的，所以为了实现更大的目标、完成更复杂的任务，就需要彼此协作共同配合。
+兼具私有云安全与公有云灵活，成本效益佳。
+内容审计
+内容描述
+再获殊荣！文心快码荣膺2025年度优秀软件产品！
+写完注释就能生成代码
+函数拆分
+分支选择
+分析问题
+创业公司需确保其拥有知识产权的软件产品具备开源版本，且此开源软件应严格遵循 Open Source Initiative（OSI）所认可的开源许可证。同时，该公司员工人数小于或等于 100 人。
+创建属于我的企业
+到期时间：
+前往下载
+前往主页
+前往体验
+前往使用
+前往续费
+前往购买
+功能特性
+动态页面 start
+北京百度网讯科技有限公司
+升级为个人专业版
+华农保险科创技术中心总经理
+单元测试生成：单测生成、接口文档生成测试代码
+单测智能体
+单独购买
+单行续写
+南威软件架构师
+即BaiduComate服务提供方不时发布并修订的关于BaiduComate的用户守则、活动规则、使用规则、公告、提示、通知及在线FAQ等内容。
+历史会话
+去下载IDE插件
+参编信通院规范
+参考源码
+参考网页
+参考资料
+双十一将至，用Rules玩转电商场景提效
+发票信息
+发票将以邮件的形式发送给您，请填写您的邮箱地址
+发票抬头
+发票类型
+可添加下方企业微信预约咨询，我们期待听到您的声音。
+可见范围
+可返回 IDE 客户端立即体验 Baidu Comate
+可返回 IDE 客户端立即体验文心快码（Baidu Comate）
+各行各业的企业都在用 文心快码
+同城旅游
+同时，百度不时发布的关于BaiduComate的相关协议、服务规则等也是本协议的一部分，您在使用BaiduComate服务的同时应遵守本协议、百度服务条款及百度旗下相关会员产品协议、服务规则等所有条款。
+名创优品
+唤起 Visual Studio Code 插件市场直接安装 文心快码（Baidu Comate） 插件，安装后请重启 IDE，即可开启智能编码之旅。
+喜马拉雅 CTO
+四、权益申请条件
+四、违约责任及责任限制
+在 JetBrains 安装
+在 VS Code 安装
+在GoLand中，我们新增了支持注释生成代码的功能
+在Java和Go语言的单元测试中，新增上下文联想能力，大幅提升了测试用例的准确性
+在您喜欢的 IDE 上，用您喜欢的语言，陪伴您的工作；支持 100 多种主流语言和 VSCode、JetBrains 全系列等主流 IDE。
+在新的数据看板功能中，支持企业根据组织架构下钻研发数据，为您的决策提供更加详尽的数据支持
+在法律法规允许的范围内，百度有权对本协议进行解释。
+在线体验
+在线客服
+在线工单支持
+在线申请：相关组织可点击本页面中的
+在线问答
+在编码阶段发现安全问题，安全防控企业资产。漏洞自动修复能力，支持用户一键修复安全风险
+基于文心大模型强大的语义理解和多轮对话能力，并结合RAG构建企业私域知识库，将AI自动编码与业务研发有效的结合起来，让业务的自动化编程成为可能，提高了公司整体研发效能和源码质量。
+基于虚拟产品的性质和特征，您所获取的虚拟产品不能够进行退货、换货、兑换现金，亦不得用于商业领域，如买卖、置换、抵押等。为了保证您的用户权益，请您通过官方渠道购买BaiduComate服务，一切通过非官方公布渠道取得的虚拟产品及其衍生服务均不获保护，百度有权中止或终止对您的服务；由此带来的损失，百度不承担相关责任。
+基础功能免费
+增加侧边栏会话中查看生成代码变更的功能
+增加敏感信息过滤的功能
+增加生成结果自定义反馈的功能
+增强 Java 单测生成质量
+复制代码
+复制失败， 请重新尝试复制代码。
+复制失败，请尝试手动复制
+复制安装脚本
+复制成功
+多文件编辑
+多智能体自协同引擎
+多条推荐
+多行续写
+多轮对话
+奈雪的茶
+如何免费使用 文心快码（Baidu Comate）
+如何安装、使用 文心快码（Baidu Comate）
+如何登录？
+如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，任何一方均可向百度所在地有管辖权的人民法院提起诉讼。
+如果您有任何疑问或需要进一步的帮助，请随时采用以下方式与我们联系：
+如果插件市场响应慢，可前往PC端下载离线安装包安装插件，按弹窗引导操作即可
+如果插件市场响应慢，可在 
+如果插件市场响应慢，推荐 
+如果插件市场速度慢，推荐
+安全智能体
+安全问题与隐私协议
+安装插件
+官方文档
+官方知识集
+实时解答使用问题
+客户服务
+客户案例
+对Java单元测试生成效果进行了大量优化，显著提升了用例正确率，保障您的代码质量
+对于无 License 的用户，完成登录即可体验 Baidu Comate 编码助手的各项功能。
+对于无 License 的用户，完成登录即可体验 文心快码（Baidu Comate） 编码助手的各项功能。
+对插件的分类和标签进行更新，使您在搜索 Comate 插件时更加轻松
+对消息的渲染样式进行了优化，以呈现更好的视觉效果
+导入知识集
+导航 start
+尊敬的用户，我们注意到您的账户被识别到有违规行为。为了维护平台的公平与安全，我们在此提醒您注意您的账户使用行为。如您认为此识别有误，或需要了解更多信息，请通过我们的官方
+展开侧边栏
+已安装 IntelliJ IDEA 的情况下：
+已安装 Visual Studio 2022 的情况下（仅支持 
+已安装 Visual Studio Code 的情况下，前往PC端，点击该区域按钮唤起 Visual Studio Code 插件市场直接安装 文心快码（Baidu Comate） 插件，安装后请登录百度账号，即可开启智能编码之旅。
+已安装 Visual Studio Code 的情况下，左侧导航上点击扩展。
+已安装Xcode的情况下，
+已提交您的咨询申请，我们将尽快安排专人联系您，3s后将关闭本页面
+希望提高编码效率的研发工程师，无论你是否有编码基础，都可以从课程中获得收获
+帮你解释代码、解释函数
+帮助文档
+常见安装问题
+常见问题
+开发速度快
+开放平台
+开源软件公益组织
+开源软件公益组织必须是合法注册的非营利性机构，其主要业务聚焦于开源项目的运营或开源软件知识产权的托管，或隶属于上述机构，并以公益为宗旨进行活动。
+开源软件创业公司
+开通VIP
+开通时长
+开通记录
+当前已经是最新的会话！
+微信咨询
+微信服务号
+快去下载体验，您将额外获得100积分，可在积分商城内兑换礼品
+快速安装
+思考过程
+总结项目架构
+恭喜您注册成功
+您今天体验次数已用尽，购买VIP后可无限次使用
+您可以通过企业试用申请链接或者邮件申请企业使用方案，我们在收到您的申请后，将第一时间由专人跟进。
+您可以通过点击下方的咨询按钮，向我们咨询企业解决方案的相关事宜。我们非常荣幸能为您服务，并将迅速安排专业人员与您取得联系。
+您在使用BaiduComate服务时，需要注意遵守以下服务规范：
+您将享受到的体验包括：
+您已绑定过手机号，即将为您重定向到首页！
+您理解并同意，鉴于网络服务的特殊性，百度有权根据市场情况进行会员权益及特色会员服务的全部或部分变更、调整、取消、增加，并可能会对您已享有或正在享有的会员权益造成影响。您同意，如您继续按照调整后的内容使用文心一言会员服务，您不要求百度承担任何责任。
+您理解并认可，如果您通过第三方支付工具在百度平台账户支付或充值后可能产生的任何商业风险（包括但不限于不法分子利用您账户或银行卡等有价卡等进行违法活动，第三方代为充值后再退款导致您的服务权益无法实现；采用第三方黑产渠道代为充值，或通过第三方非正规渠道购买远低于市场价值的BaiduComate的服务权益等），该等风险均有可能给您造成相应的经济损失，百度在充分履行其在本协议项下义务和符合法律规定的前提下，仅在法律有明确规定的情况和范围内，承担相应的责任。
+您登录BaiduComate时使用的账号信息遗失、忘记密码，导致无法登录的，您如需找回的，需按照百度官方公布的账号找回流程的要求提供相应的信息和证明，并确保提供的信息和证明文件的合法真实有效，若提供的材料不真实或不符合要求，无法通过百度的安全验证，可能会导致账号找回失败，相应的风险和损失将由您自行承担。 您理解百度对您的请求采取行动及处理均需要合理时间，除百度存在法定过错外，百度对您的损失不承担任何责任。
+您的专属解决方案咨询服务
+您的企业名称
+您的体验次数已用尽，登录后可获取更多体验次数
+您的姓名
+您的手机号
+您的浏览器不支持视频标签。
+您的研发团队规模
+您的职位
+您的邮箱
+您确认并同意，如果百度发现或收到他人举报您有违反本协议任何行为的，百度有权依法进行独立判断并采取以下一项或多项措施处理：
+您通过百度指定渠道开通本服务后，可能会由于您使用的软件版本、设备、操作系统等不同以及其他第三方原因等导致您实际可使用的具体服务有差别，由此可能给您带来的不便，您表示理解，您不予追究或者豁免百度的相关责任。
+意图分析
+成本低，扩展性强，适合快速部署和灵活调整。
+我们增加了消息的前置判断，防止在未输入有效内容时发送了消息
+我们将以邮件或电话联系的方式通知您，敬请期待！
+我们承诺不使用您的代码做任何存储、分析、加工、训练等后续动作。
+我已阅读并同意
+我的专属二维码邀请图片：
+我的代码会和其他用户共享吗？
+我的活动
+我的知识
+我的知识库
+我的邀请链接：
+我的配置
+我知道了
+手动安装
+打通从扫描到修复全链路，一键采纳修复代码，高效构筑安全壁垒，为应用保驾护航。
+批量删除
+批量删除用户
+批量授权
+批量更改角色
+批量管理
+技术文档
+技术服务费
+技术问答
+抬头类型
+换一个代码库试试
+掌握 文心快码（Baidu Comate） 如何帮助工程师提升工作效率
+探索方向
+提供丰富的产品介绍、企业落地经验、AI原生课程
+提供大客户支持服务
+提升协作效率 驱动业务增长
+提升团队协作效率
+插件市场
+搜索 文心快码（Baidu Comate），找到插件后点击安装。
+搜索互联网上的最新知识，提供更准确的编程问题答案。
+搜索框输入【文心快码（Baidu Comate）】，找到 文心快码（Baidu Comate） 后点击安装。若安装等待时间较长，可在
+搜索框输入【文心快码（Baidu Comate）】，找到 文心快码（Baidu Comate）后点击安装。
+支持IDE
+支持产品从需求到落地的全流程
+支持侧边栏的流式输出，内容输出更流畅
+支持图片、文档输入，覆盖更复杂的开发场景
+支持在JetBrains、Visual Studio Code、Visual Studio、Xcode、Eclipse、DevEco Studio等主流IDE
+支持开源软件生态繁荣，提升开源软件开发者的幸福感。面向开源公益组织、开源软件创业公司提供文心快码（Baidu Comate）免费使用权益。进而惠及广大开源开发者，助力中国开源事业取得更大的成就。
+支持根据 License 获取用户配置信息
+支持百度账号认证，扫码快速登录
+支持行中推荐
+收货地址：
+收起侧边栏
+放弃Cursor选择文心快码，我从算法工程师进阶到了全栈工程师
+教学课程
+数据安全性高，适合对隐私有高要求的企业。
+数据看板
+数篷科技 CTO
+整理答案
+文件大小不得超过100MB
+文件支持：zip格式打包的代码库，或独立代码文件
+文件菜单下点击设置。
+文心快码
+文心快码Coding智能体Zulu正式发布：国内首个多模态AI程序员正式上岗
+文心快码与数篷科技的安全工作空间产品相结合，让我们代码研发过程既安全又高效，大幅提升研发效率以及研发质量，随时随地数据协同，更聚焦为客户创造价值。
+文心快码参编国内首个软件开发智能体技术规范
+文心快码在SuperCLUE中文原生代码助手基准测评中夺冠
+文心快码大大加速了我们的研发智能化进程，把工程师从重复性和低创造性的工作中解放出来，更加专注在实现核心逻辑上，帮我们完成从个人到组织的研发提效，让我们更好地抓住大模型机遇，更快推进轻舸的高效选代，满足用户需求。
+文心快码开源软件扶持计划
+文心快码提供4大版本， 标准版，专业版，企业版，企业专有版。
+文心快码无缝集成研发各环节，加速研发全流程提效。
+文心快码源力计划标志
+文心快码直击行业难点，提供最佳落地实践，助力客户提效。
+文心快码（Baidu Comate）
+文心快码（Baidu Comate） 介绍
+文心快码（Baidu Comate） 教学课程
+文心快码（Baidu Comate） 更新日志，快速了解产品最新动态
+文心快码（Baidu Comate）个人专业版
+文心快码（Baidu Comate）个人标准版
+文心快码（Baidu Comate）企业版
+文心快码（Baidu Comate）会收集我的代码数据吗？
+文心快码（Baidu Comate）支持哪些语言、IDE、系统？
+文档型知识集
+文档知识集
+新增数据看板，助力企业研发效率提升
+新增百度账号认证，扫码快速登录功能
+新增知识集
+新建会话
+新建知识集
+方正证券
+无限制使用
+智能 CLI
+智能代码助手
+智能代码助手Baidu Comate 的核心能力揭秘
+智能编码能力深度融入开发全流程，多模态能力全面增强，一键安装、畅享自然流畅的智能开发体验。
+智能识别用户意图，智能分析最优回答策略，在线知识检索，精准解答用户代码问题。
+智领研发新纪元：文心快码2025斩获多项权威奖项，引领软件研发智能变革
+暂无描述
+暂无数据
+更准确的解决程序错误
+更复杂的任务背景，更丰富的生成行为，更智能的人机交互，为您带来全新编程体验。
+更多次数，支持
+更多次数，请先购买
+更多次数，购买
+更多版本下载
+更强大的数据安全保护
+更懂你的
+更懂你的智能代码助手
+更懂研发全流程 
+更懂研发全流程 业务迭代快
+更懂研发知识 
+更懂研发知识 开发速度快
+更懂行业客户 
+更懂行业客户 企业落地快
+更新日志
+更新日志 start
+更新时间
+更智能的安全问题修复
+更贴近程序员的编程行为
+更高效的开发调研设计
+更高质量的单元测试
+最后更新于：
+最新动态
+有代码问题 问文心快码
+服务协议
+服务支持
+本协议项下百度对于用户所有的通知均可通过网页公告、手机短信或常规的信件传送等方式进行，该等通知于发送之日视为已送达用户。为便于您收取相关通知，您应确保预留的联系方式为正确及有效，并在变更后及时登录百度修改，如因您未提供正确的联系信息或未及时告知新的联系方式，导致无法及时收取通知，将由您自行承担由此产生的损失及法律后果。 百度可通过上述方式之一或其中若干向您送达各类通知，而此类通知的内容或将对您产生重大有利或不利影响，请您务必确保联系方式为有效并请及时关注。
+本地代码库知识增强
+本地文件
+本地文档知识增强
+本服务是百度提供的收费服务，您须在按照本服务的收费标准支付相应费用后，方可使用本服务。涉及收费环节时，我们将在相关用户界面上做出提示。如您拒绝支付费用，则无法继续享受BaiduComate的相关服务，但您仍可以有限制的免费使用本服务（详情见价格页面）。
+本课程分为三大章节，带领大家系统了解 文心快码（Baidu Comate） 在研发的编码前、编码中如何帮助大家提升工作效率。
+构建研发领域知识体系，满足多场景诉求，实现高效交付。
+查看全部
+标准版：面向个人开发者，基础功能不限量使用，高级功能及模型限量使用。
+根据代码生成行间注释
+根据老代码的风格，生成新代码
+梳理核心逻辑
+模型自主修复，逐步排查，验证反馈，代码报错实现一键修复，可靠解决错误。
+欢迎使用 Baidu Comate，结合文心大模型，打造你的专属智能代码助手，具备以下能力：
+欢迎使用 文心快码（Baidu Comate），结合文心大模型，打造你的专属智能代码助手，具备以下能力：
+欢迎向我们询问企业解决方案，将安排专业人员与您取得联系。
+欢迎开通文心快码企业标准版，开通后立享5人30天免费体验。
+正在对话的 GitHub 代码库
+正在对话的技术文档
+正在登录您的 Baidu Comate 账号
+正在进行的平台交易，百度将根据情况合理判断，是否继续进行或终止相关交易，并视情况决定是否进行退费或扣除相关费用作为违约金。
+此外，您可能也可以通过接受好友赠送等百度认可的其他方式享有、使用本服务。
+步入智能体时代的AI原生研发新范式
+每人每月赠送72元智能体请求代金券，最多可消耗Auto模式600次
+每周限制300次
+每月500次智能体对话次数
+每月50次智能体对话次数
+每月赠送智能体请求代金券，最多可消耗Auto模式500次
+民生银行
+注意：若您曾使用 License 登录过 Comate 插件，请您在插件端清空 License 后重新登录或手动填写新的 License
+注意：若您曾使用 License 登录过 文心快码（Baidu Comate） 插件，请您在插件端清空 License 后重新登录或手动填写新的 License
+注释生成代码
+注释生成代码（编码区）
+活动专区
+浅色背景
+深入挖掘 GitHub 代码库，提供针对代码库内容的精准答案。
+深色背景
+添加微信 发起企业咨询
+添加成功
+源代码地址
+源力计划
+源力计划 start
+源力计划标题
+点击【Plugins】，进入 Marketplace 选项卡，搜索框输入【文心快码（Baidu Comate）】，找到 文心快码（Baidu Comate） 后点击安装。
+点击【Plugins】，进入 Marketplace 选项卡，搜索框输入【文心快码（Baidu Comate）】，找到后点击安装。
+点击或拖拽上传
+点击生成
+点击进入您专属的解决方案通道。
+点此前往官网下载即可免费使用
+版本对比
+状态条动态展示 Comate 工作状态
+现已发布
+生成业务代码
+生成单元测试
+生成提交信息
+用Spec给AI Agent立规矩，AI编码告别手忙脚乱
+用于增强 Comate 智能续写推荐，建议精准添加。
+用户和组织管理
+用户管理，动态分配 License
+申诉渠道
+申请入口
+申请加入计划
+申请加入页面 start
+申请失败
+申请成功
+电子邮件：
+登录失败
+登录已过期，请重新登录
+登录成功
+登录设备
+登录设备：
+登录账号
+登录账号，可返回 IDE 客户端立即体验 Baidu Comate
+登录账号：
+百度GBI
+百度依据本协议的约定变更服务内容、服务方式以及本协议内容的，如果BaiduComate用户不同意百度的变更，有权选择取消并停止使用已经获取的对应的全部或部分服务；如果BaiduComate用户继续使用百度提供的上述服务，则视为BaiduComate用户已经接受百度的上述调整。
+百度副总裁陈洋：大模型让软件开发更高效、更安全
+百度可能会根据本服务的整体规划，对本服务收费标准、方式等进行修改和变更，前述修改、变更，百度将在相应服务页面进行更新展示。百度会根据实际状况，对不同阶段购买、续费的会员给予不同的优惠，具体优惠政策和收费规则以百度在相关服务页面公示的信息为准。您在此理解并同意，如果百度发现用户滥用收费规则获取优惠等任何作弊的行为，可以判定该等用户享有的优惠无效。
+百度在为BaiduComate用户提供多项专属增值服务同时，尽最大努力确保BaiduComate服务的稳定性，为此提供各项技术及客服支持，包括但不限于：
+百度在此特别提示，BaiduComate服务下由百度或第三方提供相关权益内容可能有使用时间有效期的约定，如活动获得的权益等，您应当在各自权益载明的有效期内使用。逾期未使用导致权益失效的，即视为您自动放弃该权益。
+百度安全
+百度工程效能部总监臧志：百度如何打造 AI 原生研发新范式？
+百度文心快码企业服务咨询
+百度文心快码荣获2024北京信息通信行业网络安全产品优秀应用案例
+百度智能云一念
+百度智能云官网
+百度智能云客悦
+百度智能云智金
+百度智能云曦灵
+百度智能云甄知
+百度营销服务团队研发经理
+百度郑重声明：本服务不影响百度向您提供的现有的一切免费服务并保证服务质量。
+知识中心
+知识广场
+知识管理
+知识集内容
+知识集删除后将无法在Comate中继续使用，请谨慎操作。
+知识集名称
+知识集的内容，可用于增强Comate对话中生成的内容
+知识集类型
+短信登录
+码随心动，快人一步
+码随心动，快人一步，更懂你的智能代码助手
+确定删除知识集吗？
+确定要删除多条知识集吗？
+确定要删除该条知识集吗？
+私有化请联系我们了解情况
+私有化部署
+私有化部署情况下，模型和服务都部署在客户私域内，数据不会流出。
+私有化部署方案
+私有化部署解决方案
+秒后 跳转到首页
+积分商城
+立即下载
+立即参与
+立即安装Comate插件
+立即安装文心快码（Baidu Comate）插件
+立即开通
+立即注册
+立即申请
+立即申请试用
+立即续费
+立即获取
+立即购买
+立即预约
+第三方配置
+系统了解 文心快码（Baidu Comate） 在编码前、编码中场景下的能力介绍
+纳税人识别号
+线上产品培训视频课程
+组织可见
+绑定成功，即将跳转回来源页面！
+绑定手机号
+综合问题
+编写代码
+编码中：使用 文心快码（Baidu Comate） 阅读代码、代码优化、单测生成
+编码前：使用 文心快码（Baidu Comate） 通读代码库，根据需求生成代码
+编码智能体
+编辑知识集
+网络检索知识增强
+联系我们
+联系方式
+脚本复制成功
+自主理解编码需求并精准拆解任务，突破单文件局限，实现跨模块、跨目录的系统级代码生成，为开发者带来前所未有的智能协作体验。让复杂开发化繁为简，让编程效率倍速提升。
+自动复制脚本失败，请手动选择复制
+自动续费
+自定义指令
+自定义规则
+自然语言生成代码
+自然语言输入需求，智能分解执行，高效编码
+获取下载链接失败：
+获取验证码
+获奖与评测
+获奖评测
+行间快速对话
+解决方案
+计划标志
+订单来源
+订单金额
+订阅信息
+让大模型以更安全的方式学习企业业务代码和流程，更契合行业与业务的需求
+设计稿转代码
+试用企业
+试试与代码库进行对话吧
+诚邀您填写申请信息加入试用名单。我们将逐步开放试用名额
+诚邀您填写申请信息加入试用名单，我们将逐步开放试用名额
+请先登录！
+请先阅读并勾选协议
+请先验证链接
+请填写您所在的企业名称
+请填写您的发票信息
+请填写您的姓名
+请填写您的手机号
+请填写您的邮箱
+请您在购买本服务和支付费用前仔细阅读并理解本协议和相关的收费规则、政策。如您不同意，请您停止支付行为。如果您实际进行了付费行为，则代表您同意本协议与相关收费规则，您无权转让本服务或要求百度退款；但如果因百度产品技术原因，导致您购买时被重复扣款或因百度产品技术原因导致您无法享有购买的服务时，您可提出退款申诉，经过百度核实后可为您办理退款，但您需要提供相应信息并配合百度处理。
+请您理解，由于互联网服务的特殊性，为向您提供优质服务，百度须不定时进行服务器的维修、调整、升级等，且在黑客攻击、计算机病毒侵入、监管机构政策通知等不可抗力事件发生后，百度须解决故障并处理相关侵权事宜，因此您接受，本服务的服务期限包含百度解决故障、服务器维修、调整、升级、因第三方侵权处理等所需的合理时间，百度对上述情况所需用的时间不另行补偿。
+请求失败
+请确认是您本人的账号并确认是您本人正在操作，请勿转发或泄漏
+请等机器人回复后再发送哦
+请输入个人手机号
+请输入关键词查询
+请输入密码
+请输入您的公司名称
+请输入您的抬头名称
+请输入您的知识集名称
+请输入手机号！
+请输入描述内容
+请输入有效的手机号！
+请输入正确的仓库地址
+请输入正确的手机号
+请输入正确的邮箱
+请输入源代码地址
+请输入知识集名称
+请输入纳税人识别号
+请输入账号
+请输入验证码！
+请选择分支
+请选择您的研发团队规模
+请通知管理员开启configDkp功能
+课程介绍
+账号异常
+账号登录
+账户类型：
+账户问题
+购买会员权益后可直接扫码登录使用，无需配置 License
+购买前请先阅读并勾选协议
+资格评估：百度将安排专员对提交的申请进行资格评估。
+资讯消息
+赠送智能体请求代金券
+超级代码补全
+超级助理
+超越传统续写模式：AI 编程距离智能研发终态还有多远？
+身份验证
+软硬一体，开箱即用，部署快捷，服务全面。
+软通动力
+迎新年，贺新春，龙年主题活动开启，参与活动有机会赢积分、兑京东卡！
+返回 App
+还没有 JetBrains IDEs ？
+还没有 Visual Studio 2022 ？
+还没有 Visual Studio Code
+还没有 Visual Studio Code ？
+还没有 Visual Studio ？
+还没有 Xcode ？
+进行反馈。我们将尽快为您处理
+退出登录
+适用人群
+适配企业知识增强
+选择你喜欢的编辑器
+选择对话的代码库
+选择对话的技术文档
+通读代码库，帮你梳理代码架构
+部门管理员
+配置中心
+配置完成，点击 OK 或 Apply 按钮，返回 IDEA 即可体验 Comate 编码助手的各项功能。
+配置完成，点击 OK 或 Apply 按钮，返回 IDEA 即可体验 文心快码（Baidu Comate） 编码助手的各项功能。
+重发激活邮件
+重启 IntelliJ IDE，重启成功后登录百度账号，即可开启智能编码之旅。
+重启 Visual Studio 2022，重启成功后登录百度账号，即可开启智能编码之旅。
+重启 Visual Studio Code，重启成功后登录百度账号，即可开启智能编码之旅。
+重启 Xcode，重启成功后登录百度账号，即可开启智能编码之旅。
+重庆农村商业银行
+长函数拆分
+问答社区
+阅读技术文档，提供官方使用说明、API定义等问题的答案。
+阅读相关资料
+除法律规定或本协议另有约定外，已收取的费用不予退还；
+除法律规定的责任外，百度对本服务的中止或终止对用户和任何第三人不承担任何责任；
+隐私协议
+需要先安装 Visual Studio Code 才能使用文心快码插件
+页面预览与调试
+顶部banner内容
+顶部banner背景
+顺丰科技
+预测编辑
+预约演示
+飞桨PaddlePaddle
+飞桨低代码工具
+首批通过，最高等级！百度文心快码获信通院智能编码工具权威认证
+首页 strat
+首页github用户绑定手机号
+验证成功
+验证链接
+高级功能
+高级生成
+（1）产品功能和服务具体内容的调整
+（2）个人版用户和企业版用户的功能变更
+（3）付款方式、价格等的变更
+（4）其他平台公示的变更内容
+（建议精准添加）
+，提交完整的申请信息。
